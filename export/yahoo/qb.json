@@ -1,0 +1,227 @@
+[
+    {
+        "rank": 1,
+        "name": "Josh Allen",
+        "team": "BUF"
+    },
+    {
+        "rank": 2,
+        "name": "Jalen Hurts",
+        "team": "PHI"
+    },
+    {
+        "rank": 3,
+        "name": "Patrick Mahomes II",
+        "team": "KC"
+    },
+    {
+        "rank": 4,
+        "name": "Lamar Jackson",
+        "team": "BAL"
+    },
+    {
+        "rank": 5,
+        "name": "Anthony Richardson",
+        "team": "IND"
+    },
+    {
+        "rank": 6,
+        "name": "C.J. Stroud",
+        "team": "HOU"
+    },
+    {
+        "rank": 7,
+        "name": "Kyler Murray",
+        "team": "ARI"
+    },
+    {
+        "rank": 8,
+        "name": "Jordan Love",
+        "team": "GB"
+    },
+    {
+        "rank": 9,
+        "name": "Joe Burrow",
+        "team": "CIN"
+    },
+    {
+        "rank": 10,
+        "name": "Jayden Daniels",
+        "team": "WAS"
+    },
+    {
+        "rank": 11,
+        "name": "Dak Prescott",
+        "team": "DAL"
+    },
+    {
+        "rank": 12,
+        "name": "Brock Purdy",
+        "team": "SF"
+    },
+    {
+        "rank": 13,
+        "name": "Caleb Williams",
+        "team": "CHI"
+    },
+    {
+        "rank": 14,
+        "name": "Jared Goff",
+        "team": "DET"
+    },
+    {
+        "rank": 15,
+        "name": "Trevor Lawrence",
+        "team": "JAC"
+    },
+    {
+        "rank": 16,
+        "name": "Tua Tagovailoa",
+        "team": "MIA"
+    },
+    {
+        "rank": 17,
+        "name": "Kirk Cousins",
+        "team": "ATL"
+    },
+    {
+        "rank": 18,
+        "name": "Matthew Stafford",
+        "team": "LAR"
+    },
+    {
+        "rank": 19,
+        "name": "Justin Herbert",
+        "team": "LAC"
+    },
+    {
+        "rank": 20,
+        "name": "Geno Smith",
+        "team": "SEA"
+    },
+    {
+        "rank": 21,
+        "name": "Aaron Rodgers",
+        "team": "NYJ"
+    },
+    {
+        "rank": 22,
+        "name": "Deshaun Watson",
+        "team": "CLE"
+    },
+    {
+        "rank": 23,
+        "name": "Baker Mayfield",
+        "team": "TB"
+    },
+    {
+        "rank": 24,
+        "name": "Will Levis",
+        "team": "TEN"
+    },
+    {
+        "rank": 25,
+        "name": "Sam Darnold",
+        "team": "MIN"
+    },
+    {
+        "rank": 26,
+        "name": "Daniel Jones",
+        "team": "NYG"
+    },
+    {
+        "rank": 27,
+        "name": "Bo Nix",
+        "team": "DEN"
+    },
+    {
+        "rank": 28,
+        "name": "Derek Carr",
+        "team": "NO"
+    },
+    {
+        "rank": 29,
+        "name": "Bryce Young",
+        "team": "CAR"
+    },
+    {
+        "rank": 30,
+        "name": "Russell Wilson",
+        "team": "PIT"
+    },
+    {
+        "rank": 31,
+        "name": "Drake Maye",
+        "team": "NE"
+    },
+    {
+        "rank": 32,
+        "name": "Justin Fields",
+        "team": "PIT"
+    },
+    {
+        "rank": 33,
+        "name": "Gardner Minshew II",
+        "team": "LV"
+    },
+    {
+        "rank": 34,
+        "name": "Jacoby Brissett",
+        "team": "NE"
+    },
+    {
+        "rank": 35,
+        "name": "Aidan O'Connell",
+        "team": "LV"
+    },
+    {
+        "rank": 36,
+        "name": "Drew Lock",
+        "team": "NYG"
+    },
+    {
+        "rank": 37,
+        "name": "Nick Mullens",
+        "team": "MIN"
+    },
+    {
+        "rank": 38,
+        "name": "Joshua Dobbs",
+        "team": "SF"
+    },
+    {
+        "rank": 39,
+        "name": "Joe Flacco",
+        "team": "IND"
+    },
+    {
+        "rank": 40,
+        "name": "Spencer Rattler",
+        "team": "NO"
+    },
+    {
+        "rank": 41,
+        "name": "Jake Browning",
+        "team": "CIN"
+    },
+    {
+        "rank": 42,
+        "name": "Sam Howell",
+        "team": "SEA"
+    },
+    {
+        "rank": 43,
+        "name": "Jameis Winston",
+        "team": "CLE"
+    },
+    {
+        "rank": 44,
+        "name": "Carson Wentz",
+        "team": "KC"
+    },
+    {
+        "rank": 45,
+        "name": "Michael Penix Jr.",
+        "team": "ATL"
+    }
+]

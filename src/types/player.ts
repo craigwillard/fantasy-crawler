@@ -1,7 +1,15 @@
 export type Player = {
-    rank: number;
-    name: string;
-    team: string;
+  rank: string;
+  name: string;
+  team: string;
 };
 
 export type Players = Player[];
+
+export type YahooResponse = {
+  players: [
+    {
+      [key: string]: string;
+    },
+  ];
+};

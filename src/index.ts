@@ -1,51 +1,85 @@
 import fs from "fs";
 import fetch from "node-fetch";
 import * as cheerio from "cheerio";
-import { Players } from "./types/player";
-import { HarrisFootball } from "./sources/harris";
+import { Players, YahooResponse } from "./types/player";
+import { Sources } from "./types/source";
+import { AllSources } from "./sources/sources";
 
 const MAX_PLAYERS = 80;
 
-async function fetchRanksConcurrently() {
-  const positions = Object.keys(HarrisFootball.urls);
-  const urls = Object.values(HarrisFootball.urls);
-  const responses = await Promise.allSettled(
-    urls.map((url) => fetch(url).then((res) => res.text()))
-  );
+async function fetchRanksConcurrently(sources: Sources) {
+  sources.forEach(async (source) => {
+    const { urls, method } = source;
+    const http = method === "HTTP";
+    const positions = Object.keys(urls);
+    const sourceUrls = Object.values(urls);
+    const {
+      selectors: { tableSelector, rankSelector, nameSelector, teamSelector },
+    } = source;
 
-  responses.forEach((response, index) => {
-    if (response.status === "fulfilled") {
-      const body = cheerio.load(response.value);
-      const table = body(".sqs-layout table:first-child tr");
-      const collection: Players = [];
-      let rank = 0;
+    const responses = await Promise.allSettled(
+      sourceUrls.map((sourceUrl) =>
+        fetch(sourceUrl).then((res) => (http ? res.text() : res.json()))
+      )
+    );
 
-      table.each((index, element) => {
-        const pageRank = body(element).find("td:nth-of-type(1)").text();
-        const name = body(element).find("td:nth-of-type(2)").text();
-        const team = body(element).find("td:nth-of-type(3)").text();
-        if (!!pageRank && index - 1 < MAX_PLAYERS) {
-          rank += 1;
-          collection.push({
-            rank,
-            name,
-            team,
+    responses.forEach((response, index) => {
+      if (response.status === "fulfilled") {
+        let collection: Players = [];
+        if (http) {
+          const body = cheerio.load(response.value as string);
+          const table = body(tableSelector);
+
+          table.each((index, element) => {
+            const rank = body(element).find(rankSelector).text();
+            const name = body(element).find(nameSelector).text();
+            const team = body(element).find(teamSelector).text();
+            if (!!rank && index - 1 < MAX_PLAYERS) {
+              collection.push({
+                rank,
+                name,
+                team,
+              });
+            }
           });
-          console.log(`${rank}.) ${name} - ${team}`);
-        }
-      });
+        } else {
+          const { players } = response.value as YahooResponse;
 
-      var json = JSON.stringify(collection, null, 4);
-      fs.writeFile(`export/harris-${positions[index]}.json`, json, (err) => {
-        if (err) {
-          console.error(err);
+          players.forEach((player, index) => {
+            if (index < MAX_PLAYERS) {
+              collection.push({
+                rank: player[rankSelector],
+                name: player[nameSelector],
+                team: player[teamSelector],
+              });
+            }
+          });
         }
-      });
-      // console.log(`Content of ${urls[index]}:`, response.value);
-    } else {
-      console.error(`Error fetching ${urls[index]}:`, response.reason);
+
+        console.log(collection);
+
+        saveJson(collection, source.name, positions[index]);
+
+        // console.log(`Content of ${sourceUrls[index]}:`, response.value);
+      } else {
+        console.error(`Error fetching ${sourceUrls[index]}:`, response.reason);
+      }
+    });
+  });
+}
+
+function saveJson(collection: Players, sourceName: string, position: string) {
+  const json = JSON.stringify(collection, null, 4);
+
+  const folder = `export/${sourceName}/`.toLowerCase();
+  fs.mkdir(folder, { recursive: true }, (err) => {
+    if (err) throw err;
+  });
+  fs.writeFile(`${folder}${position}.json`, json, (err) => {
+    if (err) {
+      console.error(err);
     }
   });
 }
 
-fetchRanksConcurrently();
+fetchRanksConcurrently(AllSources);
