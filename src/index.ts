@@ -1,7 +1,7 @@
 import fs from "fs";
 import fetch from "node-fetch";
 import * as cheerio from "cheerio";
-import { Players, YahooResponse } from "./types/player";
+import { Players, RankingsCapture, YahooResponse } from "./types/player";
 import { Sources } from "./types/source";
 import { AllSources } from "./sources/sources";
 
@@ -25,7 +25,10 @@ async function fetchRanksConcurrently(sources: Sources) {
 
     responses.forEach((response, index) => {
       if (response.status === "fulfilled") {
-        let collection: Players = [];
+        let collection: RankingsCapture = {
+          timestamp: new Date(),
+          players: [],
+        };
         if (http) {
           const body = cheerio.load(response.value as string);
           const table = body(tableSelector);
@@ -35,7 +38,7 @@ async function fetchRanksConcurrently(sources: Sources) {
             const name = body(element).find(nameSelector).text();
             const team = body(element).find(teamSelector).text();
             if (!!rank && index - 1 < MAX_PLAYERS) {
-              collection.push({
+              collection.players.push({
                 rank,
                 name,
                 team,
@@ -47,7 +50,7 @@ async function fetchRanksConcurrently(sources: Sources) {
 
           players.forEach((player, index) => {
             if (index < MAX_PLAYERS) {
-              collection.push({
+              collection.players.push({
                 rank: player[rankSelector],
                 name: player[nameSelector],
                 team: player[teamSelector],
@@ -68,7 +71,11 @@ async function fetchRanksConcurrently(sources: Sources) {
   });
 }
 
-function saveJson(collection: Players, sourceName: string, position: string) {
+function saveJson(
+  collection: RankingsCapture,
+  sourceName: string,
+  position: string
+) {
   const json = JSON.stringify(collection, null, 4);
 
   const folder = `export/${sourceName}/`.toLowerCase();
