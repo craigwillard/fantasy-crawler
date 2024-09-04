@@ -1,0 +1,405 @@
+{
+    "timestamp": "2024-09-04T20:37:44.399Z",
+    "players": [
+        {
+            "rank": "1",
+            "name": "Josh Allen",
+            "team": "BUF"
+        },
+        {
+            "rank": "2",
+            "name": "Jalen Hurts",
+            "team": "PHI"
+        },
+        {
+            "rank": "3",
+            "name": "Patrick Mahomes",
+            "team": "KC"
+        },
+        {
+            "rank": "4",
+            "name": "Lamar Jackson",
+            "team": "BAL"
+        },
+        {
+            "rank": "5",
+            "name": "Anthony Richardson",
+            "team": "IND"
+        },
+        {
+            "rank": "6",
+            "name": "C.J. Stroud",
+            "team": "HOU"
+        },
+        {
+            "rank": "7",
+            "name": "Joe Burrow",
+            "team": "CIN"
+        },
+        {
+            "rank": "8",
+            "name": "Dak Prescott",
+            "team": "DAL"
+        },
+        {
+            "rank": "9",
+            "name": "Kyler Murray",
+            "team": "ARI"
+        },
+        {
+            "rank": "10",
+            "name": "Jordan Love",
+            "team": "GB"
+        },
+        {
+            "rank": "11",
+            "name": "Brock Purdy",
+            "team": "SF"
+        },
+        {
+            "rank": "12",
+            "name": "Jayden Daniels",
+            "team": "WSH"
+        },
+        {
+            "rank": "13",
+            "name": "Caleb Williams",
+            "team": "CHI"
+        },
+        {
+            "rank": "14",
+            "name": "Aaron Rodgers",
+            "team": "NYJ"
+        },
+        {
+            "rank": "15",
+            "name": "Justin Herbert",
+            "team": "LACQ"
+        },
+        {
+            "rank": "16",
+            "name": "Kirk Cousins",
+            "team": "ATL"
+        },
+        {
+            "rank": "17",
+            "name": "Trevor Lawrence",
+            "team": "JAX"
+        },
+        {
+            "rank": "18",
+            "name": "Tua Tagovailoa",
+            "team": "MIA"
+        },
+        {
+            "rank": "19",
+            "name": "Jared Goff",
+            "team": "DET"
+        },
+        {
+            "rank": "20",
+            "name": "Deshaun Watson",
+            "team": "CLE"
+        },
+        {
+            "rank": "21",
+            "name": "Matthew Stafford",
+            "team": "LAR"
+        },
+        {
+            "rank": "22",
+            "name": "Geno Smith",
+            "team": "SEA"
+        },
+        {
+            "rank": "23",
+            "name": "Baker Mayfield",
+            "team": "TB"
+        },
+        {
+            "rank": "24",
+            "name": "Will Levis",
+            "team": "TEN"
+        },
+        {
+            "rank": "25",
+            "name": "Daniel Jones",
+            "team": "NYG"
+        },
+        {
+            "rank": "26",
+            "name": "Bryce Young",
+            "team": "CAR"
+        },
+        {
+            "rank": "27",
+            "name": "Derek Carr",
+            "team": "NO"
+        },
+        {
+            "rank": "28",
+            "name": "EJ Manuel",
+            "team": "FA"
+        },
+        {
+            "rank": "29",
+            "name": "Tanner McKee",
+            "team": "PHI"
+        },
+        {
+            "rank": "30",
+            "name": "Manny Wilkins",
+            "team": "FA"
+        },
+        {
+            "rank": "31",
+            "name": "Mike Glennon",
+            "team": "FA"
+        },
+        {
+            "rank": "32",
+            "name": "Chevan Cordeiro",
+            "team": "FA"
+        },
+        {
+            "rank": "33",
+            "name": "Ryan Nassib",
+            "team": "JAX"
+        },
+        {
+            "rank": "34",
+            "name": "Sean Renfree",
+            "team": "ATL"
+        },
+        {
+            "rank": "35",
+            "name": "Landry Jones",
+            "team": "FA"
+        },
+        {
+            "rank": "36",
+            "name": "Alex McGough",
+            "team": "FAQ"
+        },
+        {
+            "rank": "37",
+            "name": "Zac Dysert",
+            "team": "ARI"
+        },
+        {
+            "rank": "38",
+            "name": "Tyler Wilson",
+            "team": "CIN"
+        },
+        {
+            "rank": "39",
+            "name": "Matt Barkley",
+            "team": "FA"
+        },
+        {
+            "rank": "40",
+            "name": "Chase Litton",
+            "team": "KC"
+        },
+        {
+            "rank": "41",
+            "name": "Brad Sorensen",
+            "team": "MIN"
+        },
+        {
+            "rank": "42",
+            "name": "Stetson Bennett",
+            "team": "LAR"
+        },
+        {
+            "rank": "43",
+            "name": "Steven Montez",
+            "team": "FA"
+        },
+        {
+            "rank": "44",
+            "name": "Sean Clifford",
+            "team": "FA"
+        },
+        {
+            "rank": "45",
+            "name": "Ryan Katz",
+            "team": "FA"
+        },
+        {
+            "rank": "46",
+            "name": "Collin Klein",
+            "team": "FA"
+        },
+        {
+            "rank": "47",
+            "name": "John Laub",
+            "team": "FA"
+        },
+        {
+            "rank": "48",
+            "name": "Matt Brown",
+            "team": "FA"
+        },
+        {
+            "rank": "49",
+            "name": "Riley Neal",
+            "team": "FA"
+        },
+        {
+            "rank": "50",
+            "name": "Ryan Griffin",
+            "team": "FA"
+        },
+        {
+            "rank": "51",
+            "name": "Jordan Rodgers",
+            "team": "TB"
+        },
+        {
+            "rank": "52",
+            "name": "Matt Scott",
+            "team": "CIN"
+        },
+        {
+            "rank": "53",
+            "name": "Seth Doege",
+            "team": "FA"
+        },
+        {
+            "rank": "54",
+            "name": "Jake Haener",
+            "team": "NO"
+        },
+        {
+            "rank": "55",
+            "name": "Jeff Tuel",
+            "team": "JAX"
+        },
+        {
+            "rank": "56",
+            "name": "Tyler Bray",
+            "team": "FA"
+        },
+        {
+            "rank": "57",
+            "name": "Ian Book",
+            "team": "FA"
+        },
+        {
+            "rank": "58",
+            "name": "Kyle Shurmur",
+            "team": "FA"
+        },
+        {
+            "rank": "59",
+            "name": "Mike Hermann",
+            "team": "FA"
+        },
+        {
+            "rank": "60",
+            "name": "James Vandenberg",
+            "team": "FA"
+        },
+        {
+            "rank": "61",
+            "name": "DeShone Kizer",
+            "team": "FA"
+        },
+        {
+            "rank": "62",
+            "name": "Colby Cameron",
+            "team": "FA"
+        },
+        {
+            "rank": "63",
+            "name": "Dalton Williams",
+            "team": "FA"
+        },
+        {
+            "rank": "64",
+            "name": "Caleb TerBush",
+            "team": "FA"
+        },
+        {
+            "rank": "65",
+            "name": "Tim Jenkins",
+            "team": "FA"
+        },
+        {
+            "rank": "66",
+            "name": "Matt McGloin",
+            "team": "KC"
+        },
+        {
+            "rank": "67",
+            "name": "Blake Bortles",
+            "team": "FA"
+        },
+        {
+            "rank": "68",
+            "name": "Teddy Bridgewater",
+            "team": "DET"
+        },
+        {
+            "rank": "69",
+            "name": "Johnny Manziel",
+            "team": "FA"
+        },
+        {
+            "rank": "70",
+            "name": "Jimmy Garoppolo",
+            "team": "LARSSPD"
+        },
+        {
+            "rank": "71",
+            "name": "Garrett Gilbert",
+            "team": "FA"
+        },
+        {
+            "rank": "72",
+            "name": "AJ McCarron",
+            "team": "CIN"
+        },
+        {
+            "rank": "73",
+            "name": "Tajh Boyd",
+            "team": "PIT"
+        },
+        {
+            "rank": "74",
+            "name": "Zach Mettenberger",
+            "team": "PIT"
+        },
+        {
+            "rank": "75",
+            "name": "David Fales",
+            "team": "FA"
+        },
+        {
+            "rank": "76",
+            "name": "Mark Brunell",
+            "team": "FA"
+        },
+        {
+            "rank": "77",
+            "name": "Keith Wenning",
+            "team": "BUF"
+        },
+        {
+            "rank": "78",
+            "name": "Dustin Crum",
+            "team": "FA"
+        },
+        {
+            "rank": "79",
+            "name": "Tom Savage",
+            "team": "FA"
+        },
+        {
+            "rank": "80",
+            "name": "Aidan O'Connell",
+            "team": "LV"
+        }
+    ]
+}

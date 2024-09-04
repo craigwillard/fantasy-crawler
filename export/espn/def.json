@@ -1,0 +1,165 @@
+{
+    "timestamp": "2024-09-04T20:37:44.755Z",
+    "players": [
+        {
+            "rank": "1",
+            "name": "Browns D/ST",
+            "team": "CLE"
+        },
+        {
+            "rank": "2",
+            "name": "Cowboys D/ST",
+            "team": "DAL"
+        },
+        {
+            "rank": "3",
+            "name": "49ers D/ST",
+            "team": "SF"
+        },
+        {
+            "rank": "4",
+            "name": "Jets D/ST",
+            "team": "NYJ"
+        },
+        {
+            "rank": "5",
+            "name": "Ravens D/ST",
+            "team": "BAL"
+        },
+        {
+            "rank": "6",
+            "name": "Steelers D/ST",
+            "team": "PIT"
+        },
+        {
+            "rank": "7",
+            "name": "Saints D/ST",
+            "team": "NO"
+        },
+        {
+            "rank": "8",
+            "name": "Chiefs D/ST",
+            "team": "KC"
+        },
+        {
+            "rank": "9",
+            "name": "Bengals D/ST",
+            "team": "CIN"
+        },
+        {
+            "rank": "10",
+            "name": "Dolphins D/ST",
+            "team": "MIA"
+        },
+        {
+            "rank": "11",
+            "name": "Jaguars D/ST",
+            "team": "JAX"
+        },
+        {
+            "rank": "12",
+            "name": "Bears D/ST",
+            "team": "CHI"
+        },
+        {
+            "rank": "13",
+            "name": "Lions D/ST",
+            "team": "DET"
+        },
+        {
+            "rank": "14",
+            "name": "Bills D/ST",
+            "team": "BUF"
+        },
+        {
+            "rank": "15",
+            "name": "Eagles D/ST",
+            "team": "PHI"
+        },
+        {
+            "rank": "16",
+            "name": "Colts D/ST",
+            "team": "IND"
+        },
+        {
+            "rank": "17",
+            "name": "Texans D/ST",
+            "team": "HOU"
+        },
+        {
+            "rank": "18",
+            "name": "Seahawks D/ST",
+            "team": "SEA"
+        },
+        {
+            "rank": "19",
+            "name": "Packers D/ST",
+            "team": "GB"
+        },
+        {
+            "rank": "20",
+            "name": "Falcons D/ST",
+            "team": "ATL"
+        },
+        {
+            "rank": "21",
+            "name": "Buccaneers D/ST",
+            "team": "TB"
+        },
+        {
+            "rank": "22",
+            "name": "Raiders D/ST",
+            "team": "LV"
+        },
+        {
+            "rank": "23",
+            "name": "Panthers D/ST",
+            "team": "CAR"
+        },
+        {
+            "rank": "24",
+            "name": "Vikings D/ST",
+            "team": "MIN"
+        },
+        {
+            "rank": "25",
+            "name": "Broncos D/ST",
+            "team": "DEN"
+        },
+        {
+            "rank": "26",
+            "name": "Titans D/ST",
+            "team": "TEN"
+        },
+        {
+            "rank": "27",
+            "name": "Rams D/ST",
+            "team": "LAR"
+        },
+        {
+            "rank": "28",
+            "name": "Patriots D/ST",
+            "team": "NE"
+        },
+        {
+            "rank": "29",
+            "name": "Giants D/ST",
+            "team": "NYG"
+        },
+        {
+            "rank": "30",
+            "name": "Cardinals D/ST",
+            "team": "ARI"
+        },
+        {
+            "rank": "31",
+            "name": "Chargers D/ST",
+            "team": "LAC"
+        },
+        {
+            "rank": "32",
+            "name": "Commanders D/ST",
+            "team": "WSH"
+        }
+    ]
+}

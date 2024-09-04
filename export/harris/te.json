@@ -1,205 +1,205 @@
 {
-    "timestamp": "2024-09-04T18:46:25.000Z",
+    "timestamp": "2024-09-04T20:37:44.348Z",
     "players": [
         {
             "rank": "1",
             "name": "Travis Kelce",
-            "team": "KC"
+            "team": "1"
         },
         {
             "rank": "2",
             "name": "Mark Andrews",
-            "team": "BAL"
+            "team": "2"
         },
         {
             "rank": "3",
             "name": "Sam LaPorta",
-            "team": "DET"
+            "team": "3"
         },
         {
             "rank": "4",
             "name": "George Kittle",
-            "team": "SF"
+            "team": "4"
         },
         {
             "rank": "5",
             "name": "Trey McBride",
-            "team": "ARI"
+            "team": "5"
         },
         {
             "rank": "6",
             "name": "Dalton Kincaid",
-            "team": "BUF"
+            "team": "6"
         },
         {
             "rank": "7",
             "name": "Kyle Pitts",
-            "team": "ATL"
+            "team": "7"
         },
         {
             "rank": "8",
             "name": "Jake Ferguson",
-            "team": "DAL"
+            "team": "8"
         },
         {
             "rank": "9",
             "name": "Evan Engram",
-            "team": "JAC"
+            "team": "9"
         },
         {
             "rank": "10",
             "name": "Dallas Goedert",
-            "team": "PHI"
+            "team": "10"
         },
         {
             "rank": "11",
             "name": "Brock Bowers",
-            "team": "LV"
+            "team": "11"
         },
         {
             "rank": "12",
             "name": "T.J. Hockenson",
-            "team": "MIN"
+            "team": "12"
         },
         {
             "rank": "13",
             "name": "Luke Musgrave",
-            "team": "GB"
+            "team": "13"
         },
         {
             "rank": "14",
             "name": "Cole Kmet",
-            "team": "CHI"
+            "team": "14"
         },
         {
             "rank": "15",
             "name": "David Njoku",
-            "team": "CLE"
+            "team": "15"
         },
         {
             "rank": "16",
             "name": "Dalton Schultz",
-            "team": "HOU"
+            "team": "16"
         },
         {
             "rank": "17",
             "name": "Taysom Hill",
-            "team": "NO"
+            "team": "17"
         },
         {
             "rank": "18",
             "name": "Cade Otton",
-            "team": "TB"
+            "team": "18"
         },
         {
             "rank": "19",
             "name": "Pat Freiermuth",
-            "team": "PIT"
+            "team": "19"
         },
         {
             "rank": "20",
             "name": "Hunter Henry",
-            "team": "NE"
+            "team": "20"
         },
         {
             "rank": "21",
             "name": "Chig Okonkwo",
-            "team": "TEN"
+            "team": "21"
         },
         {
             "rank": "22",
             "name": "Isaiah Likely",
-            "team": "BAL"
+            "team": "22"
         },
         {
             "rank": "23",
             "name": "Tucker Kraft",
-            "team": "GB"
+            "team": "23"
         },
         {
             "rank": "24",
             "name": "Jonnu Smith",
-            "team": "MIA"
+            "team": "24"
         },
         {
             "rank": "25",
             "name": "Dawson Knox",
-            "team": "BUF"
+            "team": "25"
         },
         {
             "rank": "26",
             "name": "Ja'Tavion Sanders",
-            "team": "CAR"
+            "team": "26"
         },
         {
             "rank": "27",
             "name": "Ben Sinnott",
-            "team": "WAS"
+            "team": "27"
         },
         {
             "rank": "28",
             "name": "Noah Fant",
-            "team": "SEA"
+            "team": "28"
         },
         {
             "rank": "29",
             "name": "Mike Gesicki",
-            "team": "CIN"
+            "team": "29"
         },
         {
             "rank": "30",
             "name": "Colby Parkinson",
-            "team": "LAR"
+            "team": "30"
         },
         {
             "rank": "31",
             "name": "Gerald Everett",
-            "team": "CHI"
+            "team": "31"
         },
         {
             "rank": "32",
             "name": "Noah Gray",
-            "team": "KC"
+            "team": "32"
         },
         {
             "rank": "33",
             "name": "Theo Johnson",
-            "team": "NYG"
+            "team": "33"
         },
         {
             "rank": "34",
             "name": "Greg Dulcich",
-            "team": "DEN"
+            "team": "34"
         },
         {
             "rank": "35",
             "name": "Juwan Johnson",
-            "team": "NO"
+            "team": "35"
         },
         {
             "rank": "36",
             "name": "Michael Mayer",
-            "team": "LV"
+            "team": "36"
         },
         {
             "rank": "37",
             "name": "Ty Conklin",
-            "team": "NYJ"
+            "team": "37"
         },
         {
             "rank": "38",
             "name": "Zach Ertz",
-            "team": "WAS"
+            "team": "38"
         },
         {
             "rank": "39",
             "name": "Daniel Bellinger",
-            "team": "NYG"
+            "team": "39"
         },
         {
             "rank": "40",
             "name": "Tyler Higbee",
-            "team": "LAR"
+            "team": "40"
         }
     ]
 }

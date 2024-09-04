@@ -10,11 +10,17 @@ export const Harris: Source = {
     te: "https://www.harrisfootball.com/te-ranks-draft",
     def: "https://www.harrisfootball.com/def-ranks-draft",
   },
-  selectors: {
-    tableSelector: ".sqs-layout table:first-child tr",
-    rankSelector: "td:nth-of-type(1)",
-    nameSelector: "td:nth-of-type(2)",
-    teamSelector: "td:nth-of-type(3)",
+  tableSelector: ".sqs-layout table:first-child tr",
+  fieldDetails: {
+    rank: {
+      selector: "td:nth-of-type(1)",
+    },
+    name: {
+      selector: "td:nth-of-type(2)",
+    },
+    team: {
+      selector: "td:nth-of-type(3)",
+    },
   },
 };
 
@@ -28,11 +34,43 @@ export const Yahoo: Source = {
     te: "https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=TE&sport=NFL&year=2024&week=0&experts=show&id=1663&type=ST&scoring=HALF&filters=7%3A9%3A285%3A747%3A4338&widget=ST",
     def: "https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=DST&sport=NFL&year=2024&week=0&experts=show&id=1663&type=ST&scoring=HALF&filters=7%3A9%3A285%3A747%3A4338&widget=ST",
   },
-  selectors: {
-    rankSelector: "rank_ecr",
-    nameSelector: "player_name",
-    teamSelector: "player_team_id",
+  fieldDetails: {
+    rank: {
+      selector: "rank_ecr",
+    },
+    name: {
+      selector: "player_name",
+    },
+    team: {
+      selector: "player_team_id",
+    },
   },
 };
 
-export const AllSources: Sources = [Harris, Yahoo];
+export const ESPN: Source = {
+  name: "ESPN",
+  method: "HTTP",
+  urls: {
+    qb: "https://fantasy.espn.com/football/tools/fantasyRankings?slotCategoryId=0&scoringPeriodId=0&seasonId=2024&count=80",
+    rb: "https://fantasy.espn.com/football/tools/fantasyRankings?slotCategoryId=2&scoringPeriodId=0&seasonId=2024&count=80",
+    wr: "https://fantasy.espn.com/football/tools/fantasyRankings?slotCategoryId=4&scoringPeriodId=0&seasonId=2024&count=80",
+    te: "https://fantasy.espn.com/football/tools/fantasyRankings?slotCategoryId=6&scoringPeriodId=0&seasonId=2024&count=80",
+    def: "https://fantasy.espn.com/football/tools/fantasyRankings?slotCategoryId=16&scoringPeriodId=0&seasonId=2024&count=80",
+  },
+  tableSelector: "#rankings-table-content tbody tr",
+  fieldDetails: {
+    rank: {
+      selector: ".rank",
+      regex: /^(.*?)\./,
+    },
+    name: {
+      selector: ".rank a",
+    },
+    team: {
+      selector: ".rank",
+      regex: /,([^,]*)$/,
+    },
+  },
+};
+
+export const AllSources: Sources = [Harris, Yahoo, ESPN];

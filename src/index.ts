@@ -2,8 +2,9 @@ import fs from "fs";
 import fetch from "node-fetch";
 import * as cheerio from "cheerio";
 import { RankingsCapture, YahooResponse } from "./types/player";
-import { Sources } from "./types/source";
+import { Source, Sources } from "./types/source";
 import { AllSources } from "./sources/sources";
+import { platform } from "os";
 
 const MAX_PLAYERS = 80;
 
@@ -14,8 +15,13 @@ async function fetchRanksConcurrently(sources: Sources) {
     const positions = Object.keys(urls);
     const sourceUrls = Object.values(urls);
     const {
-      selectors: { tableSelector, rankSelector, nameSelector, teamSelector },
-    } = source;
+      tableSelector,
+      fieldDetails: {
+        rank: { selector: rankSelector, regex: rankRegex },
+        name: { selector: nameSelector },
+        team: { selector: teamSelector, regex: teamRegex },
+      },
+    }: Source = source;
 
     const responses = await Promise.allSettled(
       sourceUrls.map((sourceUrl) =>
@@ -39,9 +45,11 @@ async function fetchRanksConcurrently(sources: Sources) {
             const team = body(element).find(teamSelector).text();
             if (!!rank && index - 1 < MAX_PLAYERS) {
               collection.players.push({
-                rank,
+                rank: rankRegex ? rank.match(rankRegex)![1] : rank,
                 name,
-                team,
+                team: teamRegex
+                  ? team.match(teamRegex)![1].toUpperCase().trim()
+                  : rank,
               });
             }
           });

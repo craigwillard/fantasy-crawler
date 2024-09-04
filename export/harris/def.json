@@ -1,165 +1,165 @@
 {
-    "timestamp": "2024-09-04T18:46:25.043Z",
+    "timestamp": "2024-09-04T20:37:44.371Z",
     "players": [
         {
             "rank": "1",
             "name": "Cleveland Browns",
-            "team": ""
+            "team": "1"
         },
         {
             "rank": "2",
             "name": "New York Jets",
-            "team": ""
+            "team": "2"
         },
         {
             "rank": "3",
             "name": "San Francisco 49ers",
-            "team": ""
+            "team": "3"
         },
         {
             "rank": "4",
             "name": "Baltimore Ravens",
-            "team": ""
+            "team": "4"
         },
         {
             "rank": "5",
             "name": "Pittsburgh Steelers",
-            "team": ""
+            "team": "5"
         },
         {
             "rank": "6",
             "name": "Dallas Cowboys",
-            "team": ""
+            "team": "6"
         },
         {
             "rank": "7",
             "name": "Kansas City Chiefs",
-            "team": ""
+            "team": "7"
         },
         {
             "rank": "8",
             "name": "Houston Texans",
-            "team": ""
+            "team": "8"
         },
         {
             "rank": "9",
             "name": "New Orleans Saints",
-            "team": ""
+            "team": "9"
         },
         {
             "rank": "10",
             "name": "Buffalo Bills",
-            "team": ""
+            "team": "10"
         },
         {
             "rank": "11",
             "name": "Chicago Bears",
-            "team": ""
+            "team": "11"
         },
         {
             "rank": "12",
             "name": "Minnesota Vikings",
-            "team": ""
+            "team": "12"
         },
         {
             "rank": "13",
             "name": "Las Vegas Raiders",
-            "team": ""
+            "team": "13"
         },
         {
             "rank": "14",
             "name": "Miami Dolphins",
-            "team": ""
+            "team": "14"
         },
         {
             "rank": "15",
             "name": "Tampa Bay Buccaneers",
-            "team": ""
+            "team": "15"
         },
         {
             "rank": "16",
             "name": "Tennessee Titans",
-            "team": ""
+            "team": "16"
         },
         {
             "rank": "17",
             "name": "Green Bay Packers",
-            "team": ""
+            "team": "17"
         },
         {
             "rank": "18",
             "name": "Philadelphia Eagles",
-            "team": ""
+            "team": "18"
         },
         {
             "rank": "19",
             "name": "Jacksonville Jaguars",
-            "team": ""
+            "team": "19"
         },
         {
             "rank": "20",
             "name": "Indianapolis Colts",
-            "team": ""
+            "team": "20"
         },
         {
             "rank": "21",
             "name": "Detroit Lions",
-            "team": ""
+            "team": "21"
         },
         {
             "rank": "22",
             "name": "Atlanta Falcons",
-            "team": ""
+            "team": "22"
         },
         {
             "rank": "23",
             "name": "Los Angeles Rams",
-            "team": ""
+            "team": "23"
         },
         {
             "rank": "24",
             "name": "Carolina Panthers",
-            "team": ""
+            "team": "24"
         },
         {
             "rank": "25",
             "name": "Los Angeles Chargers",
-            "team": ""
+            "team": "25"
         },
         {
             "rank": "26",
             "name": "Cincinnati Bengals",
-            "team": ""
+            "team": "26"
         },
         {
             "rank": "27",
             "name": "New York Giants",
-            "team": ""
+            "team": "27"
         },
         {
             "rank": "28",
             "name": "New England Patriots",
-            "team": ""
+            "team": "28"
         },
         {
             "rank": "29",
             "name": "Seattle Seahawks",
-            "team": ""
+            "team": "29"
         },
         {
             "rank": "30",
             "name": "Denver Broncos",
-            "team": ""
+            "team": "30"
         },
         {
             "rank": "31",
             "name": "Washington Commanders",
-            "team": ""
+            "team": "31"
         },
         {
             "rank": "32",
             "name": "Arizona Cardinals",
-            "team": ""
+            "team": "32"
         }
     ]
 }
