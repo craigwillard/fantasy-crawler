@@ -4,11 +4,9 @@ export type Player = {
   team: string;
 };
 
-export type Players = Player[];
-
 export type RankingsCapture = {
   timestamp: Date;
-  players: Players;
+  players: Player[];
 };
 
 export type YahooResponse = {

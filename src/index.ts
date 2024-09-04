@@ -1,7 +1,7 @@
 import fs from "fs";
 import fetch from "node-fetch";
 import * as cheerio from "cheerio";
-import { Players, RankingsCapture, YahooResponse } from "./types/player";
+import { RankingsCapture, YahooResponse } from "./types/player";
 import { Sources } from "./types/source";
 import { AllSources } from "./sources/sources";
 
