@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-04T20:37:44.077Z",
+    "timestamp": "2024-09-05T15:35:51.449Z",
     "players": [
         {
             "rank": 1,
@@ -28,13 +28,13 @@
         },
         {
             "rank": 6,
-            "name": "Jahmyr Gibbs",
-            "team": "DET"
+            "name": "Saquon Barkley",
+            "team": "PHI"
         },
         {
             "rank": 7,
-            "name": "Saquon Barkley",
-            "team": "PHI"
+            "name": "Jahmyr Gibbs",
+            "team": "DET"
         },
         {
             "rank": 8,
@@ -73,13 +73,13 @@
         },
         {
             "rank": 15,
-            "name": "Rachaad White",
-            "team": "TB"
+            "name": "Kenneth Walker III",
+            "team": "SEA"
         },
         {
             "rank": 16,
-            "name": "Kenneth Walker III",
-            "team": "SEA"
+            "name": "Rachaad White",
+            "team": "TB"
         },
         {
             "rank": 17,
@@ -88,13 +88,13 @@
         },
         {
             "rank": 18,
-            "name": "Alvin Kamara",
-            "team": "NO"
+            "name": "James Conner",
+            "team": "ARI"
         },
         {
             "rank": 19,
-            "name": "James Conner",
-            "team": "ARI"
+            "name": "Alvin Kamara",
+            "team": "NO"
         },
         {
             "rank": 20,
@@ -148,22 +148,22 @@
         },
         {
             "rank": 30,
-            "name": "Tyjae Spears",
-            "team": "TEN"
-        },
-        {
-            "rank": 31,
             "name": "Devin Singletary",
             "team": "NYG"
         },
         {
+            "rank": 31,
+            "name": "Tyjae Spears",
+            "team": "TEN"
+        },
+        {
             "rank": 32,
-            "name": "Chase Brown",
+            "name": "Zack Moss",
             "team": "CIN"
         },
         {
             "rank": 33,
-            "name": "Zack Moss",
+            "name": "Chase Brown",
             "team": "CIN"
         },
         {
@@ -188,18 +188,18 @@
         },
         {
             "rank": 38,
+            "name": "Chuba Hubbard",
+            "team": "CAR"
+        },
+        {
+            "rank": 39,
             "name": "Blake Corum",
             "team": "LAR"
         },
         {
-            "rank": 39,
+            "rank": 40,
             "name": "Trey Benson",
             "team": "ARI"
-        },
-        {
-            "rank": 40,
-            "name": "Chuba Hubbard",
-            "team": "CAR"
         },
         {
             "rank": 41,
@@ -208,13 +208,13 @@
         },
         {
             "rank": 42,
-            "name": "Nick Chubb",
-            "team": "CLE"
+            "name": "Rico Dowdle",
+            "team": "DAL"
         },
         {
             "rank": 43,
-            "name": "Rico Dowdle",
-            "team": "DAL"
+            "name": "Nick Chubb",
+            "team": "CLE"
         },
         {
             "rank": 44,
@@ -258,23 +258,23 @@
         },
         {
             "rank": 52,
-            "name": "Jordan Mason",
-            "team": "SF"
-        },
-        {
-            "rank": 53,
             "name": "Antonio Gibson",
             "team": "NE"
         },
         {
+            "rank": 53,
+            "name": "Jordan Mason",
+            "team": "SF"
+        },
+        {
             "rank": 54,
-            "name": "MarShawn Lloyd",
-            "team": "GB"
+            "name": "Ray Davis",
+            "team": "BUF"
         },
         {
             "rank": 55,
-            "name": "Ray Davis",
-            "team": "BUF"
+            "name": "MarShawn Lloyd",
+            "team": "GB"
         },
         {
             "rank": 56,
@@ -283,13 +283,13 @@
         },
         {
             "rank": 57,
-            "name": "Braelon Allen",
-            "team": "NYJ"
+            "name": "Tyrone Tracy Jr.",
+            "team": "NYG"
         },
         {
             "rank": 58,
-            "name": "Tyrone Tracy Jr.",
-            "team": "NYG"
+            "name": "Braelon Allen",
+            "team": "NYJ"
         },
         {
             "rank": 59,
@@ -303,18 +303,18 @@
         },
         {
             "rank": 61,
+            "name": "Samaje Perine",
+            "team": "KC"
+        },
+        {
+            "rank": 62,
             "name": "Tank Bigsby",
             "team": "JAC"
         },
         {
-            "rank": 62,
+            "rank": 63,
             "name": "Jamaal Williams",
             "team": "NO"
-        },
-        {
-            "rank": 63,
-            "name": "Samaje Perine",
-            "team": "KC"
         },
         {
             "rank": 64,
@@ -353,13 +353,13 @@
         },
         {
             "rank": 71,
-            "name": "Carson Steele",
-            "team": "KC"
+            "name": "Kendre Miller",
+            "team": "NO"
         },
         {
             "rank": 72,
-            "name": "Kendre Miller",
-            "team": "NO"
+            "name": "Carson Steele",
+            "team": "KC"
         },
         {
             "rank": 73,
@@ -368,38 +368,38 @@
         },
         {
             "rank": 74,
-            "name": "Clyde Edwards-Helaire",
-            "team": "KC"
-        },
-        {
-            "rank": 75,
             "name": "Dylan Laube",
             "team": "LV"
         },
         {
-            "rank": 76,
+            "rank": 75,
             "name": "Cam Akers",
             "team": "HOU"
         },
         {
-            "rank": 77,
+            "rank": 76,
             "name": "Pierre Strong Jr.",
             "team": "CLE"
         },
         {
-            "rank": 78,
+            "rank": 77,
             "name": "Dalvin Cook",
             "team": "DAL"
         },
         {
-            "rank": 79,
+            "rank": 78,
             "name": "Isaac Guerendo",
             "team": "SF"
         },
         {
+            "rank": 79,
+            "name": "Emanuel Wilson",
+            "team": "GB"
+        },
+        {
             "rank": 80,
-            "name": "Deuce Vaughn",
-            "team": "DAL"
+            "name": "Clyde Edwards-Helaire",
+            "team": "KC"
         }
     ]
 }

@@ -1,15 +1,15 @@
 {
-    "timestamp": "2024-09-04T20:37:44.665Z",
+    "timestamp": "2024-09-05T15:35:52.045Z",
     "players": [
         {
             "rank": "1",
-            "name": "Travis Kelce",
-            "team": "KC"
+            "name": "Sam LaPorta",
+            "team": "DET"
         },
         {
             "rank": "2",
-            "name": "Sam LaPorta",
-            "team": "DET"
+            "name": "Travis Kelce",
+            "team": "KC"
         },
         {
             "rank": "3",
@@ -73,18 +73,18 @@
         },
         {
             "rank": "15",
-            "name": "T.J. Hockenson",
-            "team": "MINO"
-        },
-        {
-            "rank": "16",
             "name": "Cole Kmet",
             "team": "CHI"
         },
         {
-            "rank": "17",
+            "rank": "16",
             "name": "Tyler Conklin",
             "team": "NYJ"
+        },
+        {
+            "rank": "17",
+            "name": "T.J. Hockenson",
+            "team": "MINO"
         },
         {
             "rank": "18",
@@ -128,278 +128,278 @@
         },
         {
             "rank": "26",
-            "name": "Hayden Hurst",
-            "team": "LAC"
-        },
-        {
-            "rank": "27",
-            "name": "Isaiah Likely",
-            "team": "BAL"
-        },
-        {
-            "rank": "28",
             "name": "Colby Parkinson",
             "team": "LAR"
         },
         {
+            "rank": "27",
+            "name": "Johnny Mundt",
+            "team": "MIN"
+        },
+        {
+            "rank": "28",
+            "name": "Hayden Hurst",
+            "team": "LAC"
+        },
+        {
             "rank": "29",
+            "name": "Isaiah Likely",
+            "team": "BAL"
+        },
+        {
+            "rank": "30",
             "name": "Tyler Higbee",
             "team": "LARO"
         },
         {
-            "rank": "30",
+            "rank": "31",
             "name": "Curtis Hodges",
             "team": "FAQ"
         },
         {
-            "rank": "31",
+            "rank": "32",
             "name": "Antonio Gandy-Golden",
             "team": "WSH"
         },
         {
-            "rank": "32",
+            "rank": "33",
             "name": "Darren Fells",
             "team": "FA"
         },
         {
-            "rank": "33",
+            "rank": "34",
             "name": "Ifeanyi Momah",
             "team": "FA"
         },
         {
-            "rank": "34",
+            "rank": "35",
             "name": "Tyler Eifert",
             "team": "FA"
         },
         {
-            "rank": "35",
+            "rank": "36",
             "name": "Travis Vokolek",
             "team": "ARI"
         },
         {
-            "rank": "36",
+            "rank": "37",
             "name": "Cam Sutton",
             "team": "FA"
         },
         {
-            "rank": "37",
+            "rank": "38",
             "name": "Zach Ertz",
             "team": "WSH"
         },
         {
-            "rank": "38",
+            "rank": "39",
             "name": "Gavin Escobar",
             "team": "FA"
         },
         {
-            "rank": "39",
+            "rank": "40",
             "name": "Vance McDonald",
             "team": "PIT"
         },
         {
-            "rank": "40",
+            "rank": "41",
             "name": "C.J. Conrad",
             "team": "FA"
         },
         {
-            "rank": "41",
+            "rank": "42",
             "name": "Jordan Reed",
             "team": "SF"
         },
         {
-            "rank": "42",
+            "rank": "43",
             "name": "Ryan Griffin",
             "team": "FA"
         },
         {
-            "rank": "43",
+            "rank": "44",
             "name": "D.C. Jefferson",
             "team": "CAR"
         },
         {
-            "rank": "44",
+            "rank": "45",
             "name": "Brian Walker",
             "team": "FA"
         },
         {
-            "rank": "45",
+            "rank": "46",
             "name": "Jake Burt",
             "team": "FA"
         },
         {
-            "rank": "46",
+            "rank": "47",
             "name": "Michael Williams",
             "team": "NE"
         },
         {
-            "rank": "47",
+            "rank": "48",
             "name": "Mychal Rivera",
             "team": "JAX"
         },
         {
-            "rank": "48",
+            "rank": "49",
             "name": "Chris Gragg",
             "team": "NYJ"
         },
         {
-            "rank": "49",
+            "rank": "50",
             "name": "Derrick Deese Jr.",
             "team": "FA"
         },
         {
-            "rank": "50",
+            "rank": "51",
             "name": "Eli Wolf",
             "team": "FA"
         },
         {
-            "rank": "51",
+            "rank": "52",
             "name": "Nick Kasa",
             "team": "LV"
         },
         {
-            "rank": "52",
+            "rank": "53",
             "name": "Teagan Quitoriano",
-            "team": "HOUQ"
+            "team": "FAQ"
         },
         {
-            "rank": "53",
+            "rank": "54",
             "name": "Eric Wallace",
             "team": "FA"
         },
         {
-            "rank": "54",
+            "rank": "55",
             "name": "Emanuel Byrd",
             "team": "GB"
         },
         {
-            "rank": "55",
+            "rank": "56",
             "name": "Dion Sims",
             "team": "FA"
         },
         {
-            "rank": "56",
+            "rank": "57",
             "name": "Levine Toilolo",
             "team": "FAQ"
         },
         {
-            "rank": "57",
+            "rank": "58",
             "name": "DeShon Williams",
             "team": "FA"
         },
         {
-            "rank": "58",
+            "rank": "59",
             "name": "Justice Cunningham",
             "team": "LAR"
         },
         {
-            "rank": "59",
+            "rank": "60",
             "name": "Nick Eubanks",
             "team": "FA"
         },
         {
-            "rank": "60",
+            "rank": "61",
             "name": "Devin Asiasi",
             "team": "FA"
         },
         {
-            "rank": "61",
+            "rank": "62",
             "name": "Luke Wilson",
             "team": "SEA"
         },
         {
-            "rank": "62",
+            "rank": "63",
             "name": "Brady Russell",
             "team": "SEA"
         },
         {
-            "rank": "63",
+            "rank": "64",
             "name": "Ben Cotton",
             "team": "FA"
         },
         {
-            "rank": "64",
+            "rank": "65",
             "name": "Murphy Holloway",
             "team": "FA"
         },
         {
-            "rank": "65",
+            "rank": "66",
             "name": "Stephen Carlson",
             "team": "FA"
         },
         {
-            "rank": "66",
+            "rank": "67",
             "name": "Keavon Milton",
             "team": "SEA"
         },
         {
-            "rank": "67",
+            "rank": "68",
             "name": "Lucas Reed",
             "team": "FA"
         },
         {
-            "rank": "68",
+            "rank": "69",
             "name": "David Rolf",
             "team": "FA"
         },
         {
-            "rank": "69",
+            "rank": "70",
             "name": "Travis Tannahill",
             "team": "FA"
         },
         {
-            "rank": "70",
+            "rank": "71",
             "name": "Luke Willson",
             "team": "SEA"
         },
         {
-            "rank": "71",
+            "rank": "72",
             "name": "Patrick Murtagh",
             "team": "JAXIR"
         },
         {
-            "rank": "72",
+            "rank": "73",
             "name": "Josh Hill",
             "team": "DET"
         },
         {
-            "rank": "73",
+            "rank": "74",
             "name": "Gerrit Prince",
             "team": "FAQ"
         },
         {
-            "rank": "74",
+            "rank": "75",
             "name": "Ryan Otten",
             "team": "MIN"
         },
         {
-            "rank": "75",
+            "rank": "76",
             "name": "Hunter Bryant",
             "team": "FAQ"
         },
         {
-            "rank": "76",
+            "rank": "77",
             "name": "Chris Pantale",
             "team": "MIA"
         },
         {
-            "rank": "77",
+            "rank": "78",
             "name": "Erik Krommenhoek",
             "team": "FA"
         },
         {
-            "rank": "78",
+            "rank": "79",
             "name": "Brian Leonhardt",
             "team": "MIN"
         },
         {
-            "rank": "79",
+            "rank": "80",
             "name": "Tim Wright",
             "team": "KC"
-        },
-        {
-            "rank": "80",
-            "name": "Brandon Williams",
-            "team": "FA"
         }
     ]
 }

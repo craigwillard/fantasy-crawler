@@ -1,405 +1,405 @@
 {
-    "timestamp": "2024-09-04T20:37:44.299Z",
+    "timestamp": "2024-09-05T15:35:51.171Z",
     "players": [
         {
             "rank": "1",
             "name": "Tyreek Hill",
-            "team": "1"
+            "team": "MIA"
         },
         {
             "rank": "2",
             "name": "CeeDee Lamb",
-            "team": "2"
+            "team": "DAL"
         },
         {
             "rank": "3",
             "name": "Ja'Marr Chase",
-            "team": "3"
+            "team": "CIN"
         },
         {
             "rank": "4",
             "name": "Justin Jefferson",
-            "team": "4"
+            "team": "MIN"
         },
         {
             "rank": "5",
             "name": "A.J. Brown",
-            "team": "5"
+            "team": "PHI"
         },
         {
             "rank": "6",
             "name": "Amon-Ra St. Brown",
-            "team": "6"
+            "team": "DET"
         },
         {
             "rank": "7",
             "name": "Puka Nacua",
-            "team": "7"
+            "team": "LAR"
         },
         {
             "rank": "8",
             "name": "Stefon Diggs",
-            "team": "8"
+            "team": "HOU"
         },
         {
             "rank": "9",
             "name": "Davante Adams",
-            "team": "9"
+            "team": "LV"
         },
         {
             "rank": "10",
             "name": "Brandon Aiyuk",
-            "team": "10"
+            "team": "SF"
         },
         {
             "rank": "11",
             "name": "Deebo Samuel",
-            "team": "11"
+            "team": "SF"
         },
         {
             "rank": "12",
             "name": "Nico Collins",
-            "team": "12"
+            "team": "HOU"
         },
         {
             "rank": "13",
             "name": "D.J. Moore",
-            "team": "13"
+            "team": "CHI"
         },
         {
             "rank": "14",
             "name": "Mike Evans",
-            "team": "14"
+            "team": "TB"
         },
         {
             "rank": "15",
             "name": "Garrett Wilson",
-            "team": "15"
+            "team": "NYJ"
         },
         {
             "rank": "16",
             "name": "Chris Olave",
-            "team": "16"
+            "team": "NO"
         },
         {
             "rank": "17",
             "name": "Michael Pittman",
-            "team": "17"
+            "team": "IND"
         },
         {
             "rank": "18",
             "name": "DK Metcalf",
-            "team": "18"
+            "team": "SEA"
         },
         {
             "rank": "19",
             "name": "Drake London",
-            "team": "19"
+            "team": "ATL"
         },
         {
             "rank": "20",
             "name": "Keenan Allen",
-            "team": "20"
+            "team": "CHI"
         },
         {
             "rank": "21",
             "name": "DeVonta Smith",
-            "team": "21"
+            "team": "PHI"
         },
         {
             "rank": "22",
             "name": "Cooper Kupp",
-            "team": "22"
+            "team": "LAR"
         },
         {
             "rank": "23",
             "name": "Jaylen Waddle",
-            "team": "23"
+            "team": "MIA"
         },
         {
             "rank": "24",
             "name": "Tee Higgins",
-            "team": "24"
+            "team": "CIN"
         },
         {
             "rank": "25",
             "name": "Christian Kirk",
-            "team": "25"
+            "team": "JAC"
         },
         {
             "rank": "26",
             "name": "Tank Dell",
-            "team": "26"
+            "team": "HOU"
         },
         {
             "rank": "27",
             "name": "Marvin Harrison",
-            "team": "27"
+            "team": "ARI"
         },
         {
             "rank": "28",
             "name": "Zay Flowers",
-            "team": "28"
+            "team": "BAL"
         },
         {
             "rank": "29",
             "name": "Calvin Ridley",
-            "team": "29"
+            "team": "TEN"
         },
         {
             "rank": "30",
             "name": "Terry McLaurin",
-            "team": "30"
+            "team": "WAS"
         },
         {
             "rank": "31",
             "name": "Amari Cooper",
-            "team": "31"
+            "team": "CLE"
         },
         {
             "rank": "32",
             "name": "Chris Godwin",
-            "team": "32"
+            "team": "TB"
         },
         {
             "rank": "33",
             "name": "George Pickens",
-            "team": "33"
+            "team": "PIT"
         },
         {
             "rank": "34",
             "name": "Courtland Sutton",
-            "team": "34"
+            "team": "DEN"
         },
         {
             "rank": "35",
             "name": "Rashee Rice",
-            "team": "35"
+            "team": "KC"
         },
         {
             "rank": "36",
             "name": "Diontae Johnson",
-            "team": "36"
+            "team": "CAR"
         },
         {
             "rank": "37",
             "name": "Jakobi Meyers",
-            "team": "37"
+            "team": "LV"
         },
         {
             "rank": "38",
             "name": "Jayden Reed",
-            "team": "38"
+            "team": "GB"
         },
         {
             "rank": "39",
             "name": "Jaxon Smith-Njigba",
-            "team": "39"
+            "team": "SEA"
         },
         {
             "rank": "40",
             "name": "Jordan Addison",
-            "team": "40"
+            "team": "MIN"
         },
         {
             "rank": "41",
             "name": "Malik Nabers",
-            "team": "41"
+            "team": "NYG"
         },
         {
             "rank": "42",
             "name": "Xavier Worthy",
-            "team": "42"
+            "team": "KC"
         },
         {
             "rank": "43",
             "name": "Marquise Brown",
-            "team": "43"
+            "team": "KC"
         },
         {
             "rank": "44",
             "name": "DeAndre Hopkins",
-            "team": "44"
+            "team": "TEN"
         },
         {
             "rank": "45",
             "name": "Christian Watson",
-            "team": "45"
+            "team": "GB"
         },
         {
             "rank": "46",
             "name": "Jerry Jeudy",
-            "team": "46"
+            "team": "CLE"
         },
         {
             "rank": "47",
             "name": "Tyler Lockett",
-            "team": "47"
+            "team": "SEA"
         },
         {
             "rank": "48",
             "name": "Rome Odunze",
-            "team": "48"
+            "team": "CHI"
         },
         {
             "rank": "49",
             "name": "Keon Coleman",
-            "team": "49"
+            "team": "BUF"
         },
         {
             "rank": "50",
             "name": "Brian Thomas",
-            "team": "50"
+            "team": "JAC"
         },
         {
             "rank": "51",
             "name": "Jameson Williams",
-            "team": "51"
+            "team": "DET"
         },
         {
             "rank": "52",
             "name": "Khalil Shakir",
-            "team": "52"
+            "team": "BUF"
         },
         {
             "rank": "53",
             "name": "Adam Thielen",
-            "team": "53"
+            "team": "CAR"
         },
         {
             "rank": "54",
             "name": "Brandin Cooks",
-            "team": "54"
+            "team": "DAL"
         },
         {
             "rank": "55",
             "name": "Mike Williams",
-            "team": "55"
+            "team": "NYJ"
         },
         {
             "rank": "56",
             "name": "Gabe Davis",
-            "team": "56"
+            "team": "JAC"
         },
         {
             "rank": "57",
             "name": "Romeo Doubs",
-            "team": "57"
+            "team": "GB"
         },
         {
             "rank": "58",
             "name": "Josh Palmer",
-            "team": "58"
+            "team": "LAC"
         },
         {
             "rank": "59",
             "name": "Adonai Mitchell",
-            "team": "59"
+            "team": "IND"
         },
         {
             "rank": "60",
             "name": "Rashid Shaheed",
-            "team": "60"
+            "team": "NO"
         },
         {
             "rank": "61",
             "name": "Ladd McConkey",
-            "team": "61"
+            "team": "LAC"
         },
         {
             "rank": "62",
             "name": "Curtis Samuel",
-            "team": "62"
+            "team": "BUF"
         },
         {
             "rank": "63",
             "name": "Dontayvion Wicks",
-            "team": "63"
+            "team": "GB"
         },
         {
             "rank": "64",
             "name": "Michael Wilson",
-            "team": "64"
+            "team": "ARI"
         },
         {
             "rank": "65",
             "name": "Demario Douglas",
-            "team": "65"
+            "team": "NE"
         },
         {
             "rank": "66",
             "name": "Marvin Mims",
-            "team": "66"
+            "team": "DEN"
         },
         {
             "rank": "67",
             "name": "Trey Palmer",
-            "team": "67"
+            "team": "TB"
         },
         {
             "rank": "68",
             "name": "Quentin Johnston",
-            "team": "68"
+            "team": "LAC"
         },
         {
             "rank": "69",
             "name": "Josh Downs",
-            "team": "69"
+            "team": "IND"
         },
         {
             "rank": "70",
             "name": "Xavier Legette",
-            "team": "70"
+            "team": "CAR"
         },
         {
             "rank": "71",
             "name": "Ja'Lynn Polk",
-            "team": "71"
+            "team": "NE"
         },
         {
             "rank": "72",
             "name": "Darnell Mooney",
-            "team": "72"
+            "team": "ATL"
         },
         {
             "rank": "73",
             "name": "Rashod Bateman",
-            "team": "73"
+            "team": "BAL"
         },
         {
             "rank": "74",
             "name": "Jalin Hyatt",
-            "team": "74"
+            "team": "NYG"
         },
         {
             "rank": "75",
             "name": "Wan'Dale Robinson",
-            "team": "75"
+            "team": "NYG"
         },
         {
             "rank": "76",
             "name": "Jalen McMillan",
-            "team": "76"
+            "team": "TB"
         },
         {
             "rank": "77",
             "name": "Roman Wilson",
-            "team": "77"
+            "team": "PIT"
         },
         {
             "rank": "78",
             "name": "Andrei Iosivas",
-            "team": "78"
+            "team": "CIN"
         },
         {
             "rank": "79",
             "name": "Elijah Moore",
-            "team": "79"
+            "team": "CLE"
         },
         {
             "rank": "80",
             "name": "Jalen Tolbert",
-            "team": "80"
+            "team": "DAL"
         }
     ]
 }

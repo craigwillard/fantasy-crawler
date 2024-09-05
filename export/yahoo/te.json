@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-04T20:37:44.088Z",
+    "timestamp": "2024-09-05T15:35:51.493Z",
     "players": [
         {
             "rank": 1,
@@ -98,13 +98,13 @@
         },
         {
             "rank": 20,
-            "name": "Cade Otton",
-            "team": "TB"
+            "name": "Hunter Henry",
+            "team": "NE"
         },
         {
             "rank": 21,
-            "name": "Hunter Henry",
-            "team": "NE"
+            "name": "Cade Otton",
+            "team": "TB"
         },
         {
             "rank": 22,
@@ -123,28 +123,28 @@
         },
         {
             "rank": 25,
-            "name": "Colby Parkinson",
-            "team": "LAR"
-        },
-        {
-            "rank": 26,
-            "name": "Zach Ertz",
-            "team": "WAS"
-        },
-        {
-            "rank": 27,
             "name": "Ben Sinnott",
             "team": "WAS"
         },
         {
+            "rank": 26,
+            "name": "Colby Parkinson",
+            "team": "LAR"
+        },
+        {
+            "rank": 27,
+            "name": "Zach Ertz",
+            "team": "WAS"
+        },
+        {
             "rank": 28,
-            "name": "Juwan Johnson",
-            "team": "NO"
+            "name": "Jonnu Smith",
+            "team": "MIA"
         },
         {
             "rank": 29,
-            "name": "Jonnu Smith",
-            "team": "MIA"
+            "name": "Juwan Johnson",
+            "team": "NO"
         },
         {
             "rank": 30,
@@ -168,18 +168,18 @@
         },
         {
             "rank": 34,
+            "name": "Michael Mayer",
+            "team": "LV"
+        },
+        {
+            "rank": 35,
             "name": "Theo Johnson",
             "team": "NYG"
         },
         {
-            "rank": 35,
+            "rank": 36,
             "name": "Greg Dulcich",
             "team": "DEN"
-        },
-        {
-            "rank": 36,
-            "name": "Michael Mayer",
-            "team": "LV"
         },
         {
             "rank": 37,
@@ -193,18 +193,18 @@
         },
         {
             "rank": 39,
-            "name": "Kylen Granson",
-            "team": "IND"
-        },
-        {
-            "rank": 40,
             "name": "Tyler Higbee",
             "team": "LAR"
         },
         {
-            "rank": 41,
+            "rank": 40,
             "name": "Cade Stover",
             "team": "HOU"
+        },
+        {
+            "rank": 41,
+            "name": "Kylen Granson",
+            "team": "IND"
         },
         {
             "rank": 42,

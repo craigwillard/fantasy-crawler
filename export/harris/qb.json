@@ -1,255 +1,255 @@
 {
-    "timestamp": "2024-09-04T20:37:44.123Z",
+    "timestamp": "2024-09-05T15:35:50.840Z",
     "players": [
         {
             "rank": "1",
             "name": "Josh Allen",
-            "team": "1"
+            "team": "BUF"
         },
         {
             "rank": "2",
             "name": "Lamar Jackson",
-            "team": "2"
+            "team": "BAL"
         },
         {
             "rank": "3",
             "name": "Patrick Mahomes",
-            "team": "3"
+            "team": "KC"
         },
         {
             "rank": "4",
             "name": "Joe Burrow",
-            "team": "4"
+            "team": "CIN"
         },
         {
             "rank": "5",
             "name": "C.J. Stroud",
-            "team": "5"
+            "team": "HOU"
         },
         {
             "rank": "6",
             "name": "Jalen Hurts",
-            "team": "6"
+            "team": "PHI"
         },
         {
             "rank": "7",
             "name": "Dak Prescott",
-            "team": "7"
+            "team": "DAL"
         },
         {
             "rank": "8",
             "name": "Jordan Love",
-            "team": "8"
+            "team": "GB"
         },
         {
             "rank": "9",
             "name": "Brock Purdy",
-            "team": "9"
+            "team": "SF"
         },
         {
             "rank": "10",
             "name": "Tua Tagovailoa",
-            "team": "10"
+            "team": "MIA"
         },
         {
             "rank": "11",
             "name": "Anthony Richardson",
-            "team": "11"
+            "team": "IND"
         },
         {
             "rank": "12",
             "name": "Kyler Murray",
-            "team": "12"
+            "team": "ARI"
         },
         {
             "rank": "13",
             "name": "Justin Herbert",
-            "team": "13"
+            "team": "LAC"
         },
         {
             "rank": "14",
             "name": "Trevor Lawrence",
-            "team": "14"
+            "team": "JAC"
         },
         {
             "rank": "15",
             "name": "Jared Goff",
-            "team": "15"
+            "team": "DET"
         },
         {
             "rank": "16",
             "name": "Kirk Cousins",
-            "team": "16"
+            "team": "ATL"
         },
         {
             "rank": "17",
             "name": "Caleb Williams",
-            "team": "17"
+            "team": "CHI"
         },
         {
             "rank": "18",
             "name": "Matthew Stafford",
-            "team": "18"
+            "team": "LAR"
         },
         {
             "rank": "19",
             "name": "Aaron Rodgers",
-            "team": "19"
+            "team": "NYJ"
         },
         {
             "rank": "20",
             "name": "Jayden Daniels",
-            "team": "20"
+            "team": "WAS"
         },
         {
             "rank": "21",
             "name": "Baker Mayfield",
-            "team": "21"
+            "team": "TB"
         },
         {
             "rank": "22",
             "name": "Geno Smith",
-            "team": "22"
+            "team": "SEA"
         },
         {
             "rank": "23",
             "name": "Deshaun Watson",
-            "team": "23"
+            "team": "CLE"
         },
         {
             "rank": "24",
             "name": "Derek Carr",
-            "team": "24"
+            "team": "NO"
         },
         {
             "rank": "25",
             "name": "Sam Darnold",
-            "team": "25"
+            "team": "MIN"
         },
         {
             "rank": "26",
             "name": "Daniel Jones",
-            "team": "26"
+            "team": "NYG"
         },
         {
             "rank": "27",
             "name": "Will Levis",
-            "team": "27"
+            "team": "TEN"
         },
         {
             "rank": "28",
             "name": "Bo Nix",
-            "team": "28"
+            "team": "DEN"
         },
         {
             "rank": "29",
             "name": "Russell Wilson",
-            "team": "29"
+            "team": "PIT"
         },
         {
             "rank": "30",
             "name": "Bryce Young",
-            "team": "30"
+            "team": "CAR"
         },
         {
             "rank": "31",
             "name": "Gardner Minshew",
-            "team": "31"
+            "team": "LV"
         },
         {
             "rank": "32",
             "name": "Jacoby Brissett",
-            "team": "32"
+            "team": "NE"
         },
         {
             "rank": "33",
             "name": "Justin Fields",
-            "team": "33"
+            "team": "PIT"
         },
         {
             "rank": "34",
             "name": "Drake Maye",
-            "team": "34"
+            "team": "NE"
         },
         {
             "rank": "35",
             "name": "Sam Howell",
-            "team": "35"
+            "team": "SEA"
         },
         {
             "rank": "36",
             "name": "Aidan O'Connell",
-            "team": "36"
+            "team": "LV"
         },
         {
             "rank": "37",
             "name": "Michael Penix",
-            "team": "37"
+            "team": "ATL"
         },
         {
             "rank": "38",
             "name": "Jameis Winston",
-            "team": "38"
+            "team": "CLE"
         },
         {
             "rank": "39",
             "name": "Spencer Rattler",
-            "team": "39"
+            "team": "NO"
         },
         {
             "rank": "40",
             "name": "Nick Mullens",
-            "team": "40"
+            "team": "MIN"
         },
         {
             "rank": "41",
             "name": "Hendon Hooker",
-            "team": "41"
+            "team": "DET"
         },
         {
             "rank": "42",
             "name": "Kenny Pickett",
-            "team": "42"
+            "team": "PHI"
         },
         {
             "rank": "43",
             "name": "Drew Lock",
-            "team": "43"
+            "team": "NYG"
         },
         {
             "rank": "44",
             "name": "Jarrett Stidham",
-            "team": "44"
+            "team": "DEN"
         },
         {
             "rank": "45",
             "name": "Josh Dobbs",
-            "team": "45"
+            "team": "SF"
         },
         {
             "rank": "46",
             "name": "Carson Wentz",
-            "team": "46"
+            "team": "KC"
         },
         {
             "rank": "47",
             "name": "Joe Flacco",
-            "team": "47"
+            "team": "IND"
         },
         {
             "rank": "48",
             "name": "Jimmy Garoppolo",
-            "team": "48"
+            "team": "LAR"
         },
         {
             "rank": "49",
             "name": "Mason Rudolph",
-            "team": "49"
+            "team": "TEN"
         },
         {
             "rank": "50",
             "name": "Tyrod Taylor",
-            "team": "50"
+            "team": "NYJ"
         }
     ]
 }

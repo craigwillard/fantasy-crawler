@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-04T20:37:44.096Z",
+    "timestamp": "2024-09-05T15:35:51.495Z",
     "players": [
         {
             "rank": 1,
@@ -38,13 +38,13 @@
         },
         {
             "rank": 8,
-            "name": "Miami Dolphins",
-            "team": "MIA"
+            "name": "Philadelphia Eagles",
+            "team": "PHI"
         },
         {
             "rank": 9,
-            "name": "Philadelphia Eagles",
-            "team": "PHI"
+            "name": "Houston Texans",
+            "team": "HOU"
         },
         {
             "rank": 10,
@@ -53,8 +53,8 @@
         },
         {
             "rank": 11,
-            "name": "Houston Texans",
-            "team": "HOU"
+            "name": "Miami Dolphins",
+            "team": "MIA"
         },
         {
             "rank": 12,
@@ -78,38 +78,38 @@
         },
         {
             "rank": 16,
-            "name": "Green Bay Packers",
-            "team": "GB"
-        },
-        {
-            "rank": 17,
-            "name": "Minnesota Vikings",
-            "team": "MIN"
-        },
-        {
-            "rank": 18,
             "name": "Detroit Lions",
             "team": "DET"
         },
         {
-            "rank": 19,
+            "rank": 17,
+            "name": "Green Bay Packers",
+            "team": "GB"
+        },
+        {
+            "rank": 18,
             "name": "Denver Broncos",
             "team": "DEN"
         },
         {
+            "rank": 19,
+            "name": "Minnesota Vikings",
+            "team": "MIN"
+        },
+        {
             "rank": 20,
+            "name": "Las Vegas Raiders",
+            "team": "LV"
+        },
+        {
+            "rank": 21,
             "name": "Atlanta Falcons",
             "team": "ATL"
         },
         {
-            "rank": 21,
-            "name": "New England Patriots",
-            "team": "NE"
-        },
-        {
             "rank": 22,
-            "name": "Las Vegas Raiders",
-            "team": "LV"
+            "name": "Jacksonville Jaguars",
+            "team": "JAC"
         },
         {
             "rank": 23,
@@ -118,8 +118,8 @@
         },
         {
             "rank": 24,
-            "name": "Jacksonville Jaguars",
-            "team": "JAC"
+            "name": "New England Patriots",
+            "team": "NE"
         },
         {
             "rank": 25,
@@ -138,18 +138,18 @@
         },
         {
             "rank": 28,
-            "name": "New York Giants",
-            "team": "NYG"
-        },
-        {
-            "rank": 29,
             "name": "Carolina Panthers",
             "team": "CAR"
         },
         {
-            "rank": 30,
+            "rank": 29,
             "name": "Tennessee Titans",
             "team": "TEN"
+        },
+        {
+            "rank": 30,
+            "name": "New York Giants",
+            "team": "NYG"
         },
         {
             "rank": 31,

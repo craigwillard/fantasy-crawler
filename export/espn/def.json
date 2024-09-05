@@ -1,15 +1,15 @@
 {
-    "timestamp": "2024-09-04T20:37:44.755Z",
+    "timestamp": "2024-09-05T15:35:52.341Z",
     "players": [
         {
             "rank": "1",
-            "name": "Browns D/ST",
-            "team": "CLE"
+            "name": "Cowboys D/ST",
+            "team": "DAL"
         },
         {
             "rank": "2",
-            "name": "Cowboys D/ST",
-            "team": "DAL"
+            "name": "Browns D/ST",
+            "team": "CLE"
         },
         {
             "rank": "3",
@@ -28,23 +28,23 @@
         },
         {
             "rank": "6",
-            "name": "Steelers D/ST",
-            "team": "PIT"
-        },
-        {
-            "rank": "7",
             "name": "Saints D/ST",
             "team": "NO"
         },
         {
+            "rank": "7",
+            "name": "Steelers D/ST",
+            "team": "PIT"
+        },
+        {
             "rank": "8",
-            "name": "Chiefs D/ST",
-            "team": "KC"
+            "name": "Bengals D/ST",
+            "team": "CIN"
         },
         {
             "rank": "9",
-            "name": "Bengals D/ST",
-            "team": "CIN"
+            "name": "Chiefs D/ST",
+            "team": "KC"
         },
         {
             "rank": "10",
@@ -83,78 +83,78 @@
         },
         {
             "rank": "17",
-            "name": "Texans D/ST",
-            "team": "HOU"
-        },
-        {
-            "rank": "18",
             "name": "Seahawks D/ST",
             "team": "SEA"
         },
         {
-            "rank": "19",
-            "name": "Packers D/ST",
-            "team": "GB"
+            "rank": "18",
+            "name": "Texans D/ST",
+            "team": "HOU"
         },
         {
-            "rank": "20",
+            "rank": "19",
             "name": "Falcons D/ST",
             "team": "ATL"
         },
         {
-            "rank": "21",
+            "rank": "20",
             "name": "Buccaneers D/ST",
             "team": "TB"
         },
         {
-            "rank": "22",
-            "name": "Raiders D/ST",
-            "team": "LV"
-        },
-        {
-            "rank": "23",
-            "name": "Panthers D/ST",
-            "team": "CAR"
-        },
-        {
-            "rank": "24",
+            "rank": "21",
             "name": "Vikings D/ST",
             "team": "MIN"
         },
         {
-            "rank": "25",
-            "name": "Broncos D/ST",
-            "team": "DEN"
+            "rank": "22",
+            "name": "Packers D/ST",
+            "team": "GB"
         },
         {
-            "rank": "26",
-            "name": "Titans D/ST",
-            "team": "TEN"
+            "rank": "23",
+            "name": "Chargers D/ST",
+            "team": "LAC"
         },
         {
-            "rank": "27",
-            "name": "Rams D/ST",
-            "team": "LAR"
-        },
-        {
-            "rank": "28",
-            "name": "Patriots D/ST",
-            "team": "NE"
-        },
-        {
-            "rank": "29",
+            "rank": "24",
             "name": "Giants D/ST",
             "team": "NYG"
         },
         {
+            "rank": "25",
+            "name": "Titans D/ST",
+            "team": "TEN"
+        },
+        {
+            "rank": "26",
+            "name": "Raiders D/ST",
+            "team": "LV"
+        },
+        {
+            "rank": "27",
+            "name": "Panthers D/ST",
+            "team": "CAR"
+        },
+        {
+            "rank": "28",
+            "name": "Broncos D/ST",
+            "team": "DEN"
+        },
+        {
+            "rank": "29",
+            "name": "Rams D/ST",
+            "team": "LAR"
+        },
+        {
             "rank": "30",
-            "name": "Cardinals D/ST",
-            "team": "ARI"
+            "name": "Patriots D/ST",
+            "team": "NE"
         },
         {
             "rank": "31",
-            "name": "Chargers D/ST",
-            "team": "LAC"
+            "name": "Cardinals D/ST",
+            "team": "ARI"
         },
         {
             "rank": "32",

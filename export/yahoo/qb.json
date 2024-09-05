@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-04T20:37:44.068Z",
+    "timestamp": "2024-09-05T15:35:51.447Z",
     "players": [
         {
             "rank": 1,
@@ -128,13 +128,13 @@
         },
         {
             "rank": 26,
-            "name": "Sam Darnold",
-            "team": "MIN"
+            "name": "Bo Nix",
+            "team": "DEN"
         },
         {
             "rank": 27,
-            "name": "Bo Nix",
-            "team": "DEN"
+            "name": "Sam Darnold",
+            "team": "MIN"
         },
         {
             "rank": 28,
@@ -183,46 +183,41 @@
         },
         {
             "rank": 37,
-            "name": "Nick Mullens",
-            "team": "MIN"
-        },
-        {
-            "rank": 38,
             "name": "Drew Lock",
             "team": "NYG"
         },
         {
-            "rank": 39,
-            "name": "Joshua Dobbs",
-            "team": "SF"
+            "rank": 38,
+            "name": "Nick Mullens",
+            "team": "MIN"
         },
         {
-            "rank": 40,
+            "rank": 39,
             "name": "Joe Flacco",
             "team": "IND"
         },
         {
-            "rank": 41,
-            "name": "Carson Wentz",
-            "team": "KC"
-        },
-        {
-            "rank": 42,
+            "rank": 40,
             "name": "Spencer Rattler",
             "team": "NO"
         },
         {
-            "rank": 43,
-            "name": "Jake Browning",
-            "team": "CIN"
-        },
-        {
-            "rank": 44,
+            "rank": 41,
             "name": "Sam Howell",
             "team": "SEA"
         },
         {
-            "rank": 45,
+            "rank": 42,
+            "name": "Jake Browning",
+            "team": "CIN"
+        },
+        {
+            "rank": 43,
+            "name": "Joshua Dobbs",
+            "team": "SF"
+        },
+        {
+            "rank": 44,
             "name": "Michael Penix Jr.",
             "team": "ATL"
         }

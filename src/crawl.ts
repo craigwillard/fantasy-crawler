@@ -1,17 +1,16 @@
-import fs from "fs";
-import fetch from "node-fetch";
-import * as cheerio from "cheerio";
-import { RankingsCapture, YahooResponse } from "./types/player";
-import { Source, Sources } from "./types/source";
-import { AllSources } from "./sources/sources";
-import { platform } from "os";
+import fs from 'fs';
+import fetch from 'node-fetch';
+import * as cheerio from 'cheerio';
+import { RankingsCapture, YahooResponse } from './types/player';
+import { Source, Sources } from './types/source';
+import { AllSources } from './sources/sources';
 
 const MAX_PLAYERS = 80;
 
 async function fetchRanksConcurrently(sources: Sources) {
   sources.forEach(async (source) => {
     const { urls, method } = source;
-    const http = method === "HTTP";
+    const http = method === 'HTTP';
     const positions = Object.keys(urls);
     const sourceUrls = Object.values(urls);
     const {
@@ -25,13 +24,13 @@ async function fetchRanksConcurrently(sources: Sources) {
 
     const responses = await Promise.allSettled(
       sourceUrls.map((sourceUrl) =>
-        fetch(sourceUrl).then((res) => (http ? res.text() : res.json()))
-      )
+        fetch(sourceUrl).then((res) => (http ? res.text() : res.json())),
+      ),
     );
 
     responses.forEach((response, index) => {
-      if (response.status === "fulfilled") {
-        let collection: RankingsCapture = {
+      if (response.status === 'fulfilled') {
+        const collection: RankingsCapture = {
           timestamp: new Date(),
           players: [],
         };
@@ -49,7 +48,7 @@ async function fetchRanksConcurrently(sources: Sources) {
                 name,
                 team: teamRegex
                   ? team.match(teamRegex)![1].toUpperCase().trim()
-                  : rank,
+                  : team,
               });
             }
           });
@@ -82,7 +81,7 @@ async function fetchRanksConcurrently(sources: Sources) {
 function saveJson(
   collection: RankingsCapture,
   sourceName: string,
-  position: string
+  position: string,
 ) {
   const json = JSON.stringify(collection, null, 4);
 

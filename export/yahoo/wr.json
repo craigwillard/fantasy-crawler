@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-04T20:37:44.080Z",
+    "timestamp": "2024-09-05T15:35:51.459Z",
     "players": [
         {
             "rank": 1,
@@ -63,18 +63,18 @@
         },
         {
             "rank": 13,
-            "name": "Nico Collins",
-            "team": "HOU"
-        },
-        {
-            "rank": 14,
             "name": "Chris Olave",
             "team": "NO"
         },
         {
-            "rank": 15,
+            "rank": 14,
             "name": "Brandon Aiyuk",
             "team": "SF"
+        },
+        {
+            "rank": 15,
+            "name": "Nico Collins",
+            "team": "HOU"
         },
         {
             "rank": 16,
@@ -98,23 +98,23 @@
         },
         {
             "rank": 20,
-            "name": "DeVonta Smith",
-            "team": "PHI"
-        },
-        {
-            "rank": 21,
             "name": "DK Metcalf",
             "team": "SEA"
         },
         {
+            "rank": 21,
+            "name": "DeVonta Smith",
+            "team": "PHI"
+        },
+        {
             "rank": 22,
-            "name": "Malik Nabers",
-            "team": "NYG"
+            "name": "Michael Pittman Jr.",
+            "team": "IND"
         },
         {
             "rank": 23,
-            "name": "Michael Pittman Jr.",
-            "team": "IND"
+            "name": "Malik Nabers",
+            "team": "NYG"
         },
         {
             "rank": 24,
@@ -143,8 +143,8 @@
         },
         {
             "rank": 29,
-            "name": "George Pickens",
-            "team": "PIT"
+            "name": "Tee Higgins",
+            "team": "CIN"
         },
         {
             "rank": 30,
@@ -153,8 +153,8 @@
         },
         {
             "rank": 31,
-            "name": "Tee Higgins",
-            "team": "CIN"
+            "name": "George Pickens",
+            "team": "PIT"
         },
         {
             "rank": 32,
@@ -173,18 +173,18 @@
         },
         {
             "rank": 35,
-            "name": "Jayden Reed",
-            "team": "GB"
-        },
-        {
-            "rank": 36,
             "name": "Christian Kirk",
             "team": "JAC"
         },
         {
-            "rank": 37,
+            "rank": 36,
             "name": "Keenan Allen",
             "team": "CHI"
+        },
+        {
+            "rank": 37,
+            "name": "Jayden Reed",
+            "team": "GB"
         },
         {
             "rank": 38,
@@ -203,28 +203,28 @@
         },
         {
             "rank": 41,
-            "name": "Xavier Worthy",
-            "team": "KC"
-        },
-        {
-            "rank": 42,
-            "name": "Christian Watson",
-            "team": "GB"
-        },
-        {
-            "rank": 43,
             "name": "Courtland Sutton",
             "team": "DEN"
         },
         {
+            "rank": 42,
+            "name": "Xavier Worthy",
+            "team": "KC"
+        },
+        {
+            "rank": 43,
+            "name": "Christian Watson",
+            "team": "GB"
+        },
+        {
             "rank": 44,
-            "name": "Jordan Addison",
-            "team": "MIN"
+            "name": "DeAndre Hopkins",
+            "team": "TEN"
         },
         {
             "rank": 45,
-            "name": "DeAndre Hopkins",
-            "team": "TEN"
+            "name": "Jordan Addison",
+            "team": "MIN"
         },
         {
             "rank": 46,
@@ -238,28 +238,28 @@
         },
         {
             "rank": 48,
-            "name": "Rashid Shaheed",
-            "team": "NO"
-        },
-        {
-            "rank": 49,
-            "name": "Ladd McConkey",
-            "team": "LAC"
-        },
-        {
-            "rank": 50,
             "name": "Tyler Lockett",
             "team": "SEA"
         },
         {
+            "rank": 49,
+            "name": "Rashid Shaheed",
+            "team": "NO"
+        },
+        {
+            "rank": 50,
+            "name": "Ladd McConkey",
+            "team": "LAC"
+        },
+        {
             "rank": 51,
-            "name": "Khalil Shakir",
-            "team": "BUF"
+            "name": "Joshua Palmer",
+            "team": "LAC"
         },
         {
             "rank": 52,
-            "name": "Joshua Palmer",
-            "team": "LAC"
+            "name": "Khalil Shakir",
+            "team": "BUF"
         },
         {
             "rank": 53,
@@ -273,13 +273,13 @@
         },
         {
             "rank": 55,
-            "name": "Keon Coleman",
-            "team": "BUF"
+            "name": "Jakobi Meyers",
+            "team": "LV"
         },
         {
             "rank": 56,
-            "name": "Jakobi Meyers",
-            "team": "LV"
+            "name": "Keon Coleman",
+            "team": "BUF"
         },
         {
             "rank": 57,
@@ -288,13 +288,13 @@
         },
         {
             "rank": 58,
-            "name": "Josh Downs",
-            "team": "IND"
+            "name": "Brandin Cooks",
+            "team": "DAL"
         },
         {
             "rank": 59,
-            "name": "Brandin Cooks",
-            "team": "DAL"
+            "name": "Josh Downs",
+            "team": "IND"
         },
         {
             "rank": 60,
@@ -308,13 +308,13 @@
         },
         {
             "rank": 62,
-            "name": "Ja'Lynn Polk",
-            "team": "NE"
+            "name": "Gabe Davis",
+            "team": "JAC"
         },
         {
             "rank": 63,
-            "name": "Gabe Davis",
-            "team": "JAC"
+            "name": "Ja'Lynn Polk",
+            "team": "NE"
         },
         {
             "rank": 64,
@@ -323,23 +323,23 @@
         },
         {
             "rank": 65,
-            "name": "Adam Thielen",
-            "team": "CAR"
-        },
-        {
-            "rank": 66,
             "name": "Jerry Jeudy",
             "team": "CLE"
         },
         {
+            "rank": 66,
+            "name": "Rashod Bateman",
+            "team": "BAL"
+        },
+        {
             "rank": 67,
-            "name": "Darnell Mooney",
-            "team": "ATL"
+            "name": "Adam Thielen",
+            "team": "CAR"
         },
         {
             "rank": 68,
-            "name": "Rashod Bateman",
-            "team": "BAL"
+            "name": "Darnell Mooney",
+            "team": "ATL"
         },
         {
             "rank": 69,
@@ -358,43 +358,43 @@
         },
         {
             "rank": 72,
-            "name": "Wan'Dale Robinson",
-            "team": "NYG"
-        },
-        {
-            "rank": 73,
-            "name": "Jalen McMillan",
-            "team": "TB"
-        },
-        {
-            "rank": 74,
-            "name": "Elijah Moore",
-            "team": "CLE"
-        },
-        {
-            "rank": 75,
-            "name": "Darius Slayton",
-            "team": "NYG"
-        },
-        {
-            "rank": 76,
-            "name": "Demarcus Robinson",
-            "team": "LAR"
-        },
-        {
-            "rank": 77,
             "name": "Andrei Iosivas",
             "team": "CIN"
         },
         {
+            "rank": 73,
+            "name": "Wan'Dale Robinson",
+            "team": "NYG"
+        },
+        {
+            "rank": 74,
+            "name": "Jalen McMillan",
+            "team": "TB"
+        },
+        {
+            "rank": 75,
+            "name": "Elijah Moore",
+            "team": "CLE"
+        },
+        {
+            "rank": 76,
+            "name": "Darius Slayton",
+            "team": "NYG"
+        },
+        {
+            "rank": 77,
+            "name": "Demarcus Robinson",
+            "team": "LAR"
+        },
+        {
             "rank": 78,
-            "name": "Greg Dortch",
-            "team": "ARI"
+            "name": "Xavier Legette",
+            "team": "CAR"
         },
         {
             "rank": 79,
-            "name": "Xavier Legette",
-            "team": "CAR"
+            "name": "Greg Dortch",
+            "team": "ARI"
         },
         {
             "rank": 80,

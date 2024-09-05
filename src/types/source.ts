@@ -1,4 +1,4 @@
-export type Field = "rank" | "name" | "team";
+export type Field = 'rank' | 'name' | 'team';
 
 export type FieldDetails = {
   selector: string;
@@ -7,7 +7,7 @@ export type FieldDetails = {
 
 export type Source = {
   name: string;
-  method: "HTTP" | "GET";
+  method: 'HTTP' | 'GET';
   urls: {
     qb: string;
     rb: string;
