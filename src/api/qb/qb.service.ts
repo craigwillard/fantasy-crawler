@@ -38,10 +38,14 @@ export class QbService {
   }
 
   findAll() {
+    return this.unifiedQbs;
+  }
+
+  findAllHarris() {
     return this.harrisQbs;
   }
 
-  findByName(name: string) {
+  findByNameHarris(name: string) {
     return this.harrisQbs.find((player) => {
       return player.name.replace(' ', '-').toLowerCase() === name;
     });

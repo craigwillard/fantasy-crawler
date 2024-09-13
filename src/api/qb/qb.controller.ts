@@ -5,13 +5,18 @@ import { QbService } from './qb.service';
 export class QbController {
   constructor(private catsService: QbService) {}
 
-  @Get('harris')
+  @Get()
   findAll() {
     return this.catsService.findAll();
   }
 
+  @Get('harris')
+  findAllHarris() {
+    return this.catsService.findAllHarris();
+  }
+
   @Get('harris/:name')
   find(@Param('name') name: string) {
-    return this.catsService.findByName(name);
+    return this.catsService.findByNameHarris(name);
   }
 }
