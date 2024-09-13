@@ -16,3 +16,11 @@ export type YahooPlayer = {
 export type YahooResponse = {
   players: YahooPlayer[];
 };
+
+export type UnifiedPlayers = {
+  [key: string]: {
+    team: string;
+    ranks: number[];
+    average: number;
+  };
+};
