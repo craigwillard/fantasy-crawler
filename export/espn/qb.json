@@ -1,403 +1,403 @@
 {
-    "timestamp": "2024-09-05T15:35:51.558Z",
+    "timestamp": "2024-09-13T02:06:48.173Z",
     "players": [
         {
-            "rank": "1",
+            "rank": 1,
             "name": "Josh Allen",
             "team": "BUF"
         },
         {
-            "rank": "2",
+            "rank": 2,
             "name": "Jalen Hurts",
             "team": "PHI"
         },
         {
-            "rank": "3",
+            "rank": 3,
             "name": "Lamar Jackson",
             "team": "BAL"
         },
         {
-            "rank": "4",
+            "rank": 4,
             "name": "Patrick Mahomes",
             "team": "KC"
         },
         {
-            "rank": "5",
+            "rank": 5,
             "name": "Anthony Richardson",
             "team": "IND"
         },
         {
-            "rank": "6",
+            "rank": 6,
             "name": "C.J. Stroud",
             "team": "HOU"
         },
         {
-            "rank": "7",
+            "rank": 7,
             "name": "Joe Burrow",
             "team": "CIN"
         },
         {
-            "rank": "8",
+            "rank": 8,
             "name": "Kyler Murray",
             "team": "ARI"
         },
         {
-            "rank": "9",
+            "rank": 9,
             "name": "Dak Prescott",
             "team": "DAL"
         },
         {
-            "rank": "10",
+            "rank": 10,
             "name": "Jordan Love",
-            "team": "GB"
+            "team": "GBD"
         },
         {
-            "rank": "11",
+            "rank": 11,
             "name": "Jayden Daniels",
             "team": "WSH"
         },
         {
-            "rank": "12",
+            "rank": 12,
             "name": "Brock Purdy",
             "team": "SF"
         },
         {
-            "rank": "13",
+            "rank": 13,
             "name": "Caleb Williams",
             "team": "CHI"
         },
         {
-            "rank": "14",
+            "rank": 14,
             "name": "Justin Herbert",
             "team": "LAC"
         },
         {
-            "rank": "15",
+            "rank": 15,
             "name": "Aaron Rodgers",
             "team": "NYJ"
         },
         {
-            "rank": "16",
+            "rank": 16,
             "name": "Trevor Lawrence",
             "team": "JAX"
         },
         {
-            "rank": "17",
+            "rank": 17,
             "name": "Kirk Cousins",
             "team": "ATL"
         },
         {
-            "rank": "18",
+            "rank": 18,
             "name": "Tua Tagovailoa",
             "team": "MIA"
         },
         {
-            "rank": "19",
+            "rank": 19,
             "name": "Jared Goff",
             "team": "DET"
         },
         {
-            "rank": "20",
+            "rank": 20,
             "name": "Deshaun Watson",
             "team": "CLE"
         },
         {
-            "rank": "21",
+            "rank": 21,
             "name": "Matthew Stafford",
             "team": "LAR"
         },
         {
-            "rank": "22",
+            "rank": 22,
             "name": "Geno Smith",
             "team": "SEA"
         },
         {
-            "rank": "23",
+            "rank": 23,
             "name": "Baker Mayfield",
             "team": "TB"
         },
         {
-            "rank": "24",
+            "rank": 24,
             "name": "Will Levis",
             "team": "TEN"
         },
         {
-            "rank": "25",
+            "rank": 25,
             "name": "Daniel Jones",
             "team": "NYG"
         },
         {
-            "rank": "26",
+            "rank": 26,
             "name": "Bryce Young",
             "team": "CAR"
         },
         {
-            "rank": "27",
+            "rank": 27,
             "name": "Derek Carr",
             "team": "NO"
         },
         {
-            "rank": "28",
+            "rank": 28,
             "name": "Sam Darnold",
             "team": "MIN"
         },
         {
-            "rank": "29",
+            "rank": 29,
             "name": "EJ Manuel",
             "team": "FA"
         },
         {
-            "rank": "30",
+            "rank": 30,
             "name": "Tanner McKee",
             "team": "PHI"
         },
         {
-            "rank": "31",
+            "rank": 31,
             "name": "Manny Wilkins",
             "team": "FA"
         },
         {
-            "rank": "32",
+            "rank": 32,
             "name": "Mike Glennon",
             "team": "FA"
         },
         {
-            "rank": "33",
+            "rank": 33,
             "name": "Chevan Cordeiro",
             "team": "FA"
         },
         {
-            "rank": "34",
+            "rank": 34,
             "name": "Ryan Nassib",
             "team": "JAX"
         },
         {
-            "rank": "35",
+            "rank": 35,
             "name": "Sean Renfree",
             "team": "ATL"
         },
         {
-            "rank": "36",
+            "rank": 36,
             "name": "Landry Jones",
             "team": "FA"
         },
         {
-            "rank": "37",
+            "rank": 37,
             "name": "Alex McGough",
             "team": "FAQ"
         },
         {
-            "rank": "38",
+            "rank": 38,
             "name": "Zac Dysert",
             "team": "ARI"
         },
         {
-            "rank": "39",
+            "rank": 39,
             "name": "Tyler Wilson",
             "team": "CIN"
         },
         {
-            "rank": "40",
+            "rank": 40,
             "name": "Matt Barkley",
             "team": "FA"
         },
         {
-            "rank": "41",
+            "rank": 41,
             "name": "Chase Litton",
             "team": "KC"
         },
         {
-            "rank": "42",
+            "rank": 42,
             "name": "Brad Sorensen",
             "team": "MIN"
         },
         {
-            "rank": "43",
+            "rank": 43,
             "name": "Stetson Bennett",
             "team": "LAR"
         },
         {
-            "rank": "44",
+            "rank": 44,
             "name": "Steven Montez",
             "team": "FA"
         },
         {
-            "rank": "45",
+            "rank": 45,
             "name": "Sean Clifford",
             "team": "FA"
         },
         {
-            "rank": "46",
+            "rank": 46,
             "name": "Ryan Katz",
             "team": "FA"
         },
         {
-            "rank": "47",
+            "rank": 47,
             "name": "Collin Klein",
             "team": "FA"
         },
         {
-            "rank": "48",
+            "rank": 48,
             "name": "John Laub",
             "team": "FA"
         },
         {
-            "rank": "49",
+            "rank": 49,
             "name": "Matt Brown",
             "team": "FA"
         },
         {
-            "rank": "50",
+            "rank": 50,
             "name": "Riley Neal",
             "team": "FA"
         },
         {
-            "rank": "51",
+            "rank": 51,
             "name": "Ryan Griffin",
             "team": "FA"
         },
         {
-            "rank": "52",
+            "rank": 52,
             "name": "Jordan Rodgers",
             "team": "TB"
         },
         {
-            "rank": "53",
+            "rank": 53,
             "name": "Matt Scott",
             "team": "CIN"
         },
         {
-            "rank": "54",
+            "rank": 54,
             "name": "Seth Doege",
             "team": "FA"
         },
         {
-            "rank": "55",
+            "rank": 55,
             "name": "Jake Haener",
             "team": "NO"
         },
         {
-            "rank": "56",
+            "rank": 56,
             "name": "Jeff Tuel",
             "team": "JAX"
         },
         {
-            "rank": "57",
+            "rank": 57,
             "name": "Tyler Bray",
             "team": "FA"
         },
         {
-            "rank": "58",
+            "rank": 58,
             "name": "Ian Book",
             "team": "FA"
         },
         {
-            "rank": "59",
+            "rank": 59,
             "name": "Kyle Shurmur",
             "team": "FA"
         },
         {
-            "rank": "60",
+            "rank": 60,
             "name": "Mike Hermann",
             "team": "FA"
         },
         {
-            "rank": "61",
+            "rank": 61,
             "name": "James Vandenberg",
             "team": "FA"
         },
         {
-            "rank": "62",
+            "rank": 62,
             "name": "DeShone Kizer",
             "team": "FA"
         },
         {
-            "rank": "63",
+            "rank": 63,
             "name": "Colby Cameron",
             "team": "FA"
         },
         {
-            "rank": "64",
+            "rank": 64,
             "name": "Dalton Williams",
             "team": "FA"
         },
         {
-            "rank": "65",
+            "rank": 65,
             "name": "Caleb TerBush",
             "team": "FA"
         },
         {
-            "rank": "66",
+            "rank": 66,
             "name": "Tim Jenkins",
             "team": "FA"
         },
         {
-            "rank": "67",
+            "rank": 67,
             "name": "Matt McGloin",
             "team": "KC"
         },
         {
-            "rank": "68",
+            "rank": 68,
             "name": "Blake Bortles",
             "team": "FA"
         },
         {
-            "rank": "69",
+            "rank": 69,
             "name": "Teddy Bridgewater",
             "team": "DET"
         },
         {
-            "rank": "70",
+            "rank": 70,
             "name": "Johnny Manziel",
             "team": "FA"
         },
         {
-            "rank": "71",
+            "rank": 71,
             "name": "Jimmy Garoppolo",
             "team": "LARSSPD"
         },
         {
-            "rank": "72",
+            "rank": 72,
             "name": "Garrett Gilbert",
             "team": "FA"
         },
         {
-            "rank": "73",
+            "rank": 73,
             "name": "AJ McCarron",
             "team": "CIN"
         },
         {
-            "rank": "74",
+            "rank": 74,
             "name": "Tajh Boyd",
             "team": "PIT"
         },
         {
-            "rank": "75",
+            "rank": 75,
             "name": "Zach Mettenberger",
             "team": "PIT"
         },
         {
-            "rank": "76",
+            "rank": 76,
             "name": "David Fales",
             "team": "FA"
         },
         {
-            "rank": "77",
+            "rank": 77,
             "name": "Mark Brunell",
             "team": "FA"
         },
         {
-            "rank": "78",
+            "rank": 78,
             "name": "Keith Wenning",
             "team": "BUF"
         },
         {
-            "rank": "79",
+            "rank": 79,
             "name": "Dustin Crum",
             "team": "FA"
         },
         {
-            "rank": "80",
+            "rank": 80,
             "name": "Tom Savage",
             "team": "FA"
         }

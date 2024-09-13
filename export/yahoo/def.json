@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-05T15:35:51.495Z",
+    "timestamp": "2024-09-13T02:06:47.874Z",
     "players": [
         {
             "rank": 1,
@@ -38,18 +38,18 @@
         },
         {
             "rank": 8,
+            "name": "Chicago Bears",
+            "team": "CHI"
+        },
+        {
+            "rank": 9,
             "name": "Philadelphia Eagles",
             "team": "PHI"
         },
         {
-            "rank": 9,
+            "rank": 10,
             "name": "Houston Texans",
             "team": "HOU"
-        },
-        {
-            "rank": 10,
-            "name": "Chicago Bears",
-            "team": "CHI"
         },
         {
             "rank": 11,
@@ -83,13 +83,13 @@
         },
         {
             "rank": 17,
-            "name": "Green Bay Packers",
-            "team": "GB"
+            "name": "Denver Broncos",
+            "team": "DEN"
         },
         {
             "rank": 18,
-            "name": "Denver Broncos",
-            "team": "DEN"
+            "name": "Green Bay Packers",
+            "team": "GB"
         },
         {
             "rank": 19,

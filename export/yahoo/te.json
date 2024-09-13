@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-05T15:35:51.493Z",
+    "timestamp": "2024-09-13T02:06:47.823Z",
     "players": [
         {
             "rank": 1,
@@ -73,13 +73,13 @@
         },
         {
             "rank": 15,
-            "name": "Luke Musgrave",
-            "team": "GB"
+            "name": "Taysom Hill",
+            "team": "NO"
         },
         {
             "rank": 16,
-            "name": "Taysom Hill",
-            "team": "NO"
+            "name": "Luke Musgrave",
+            "team": "GB"
         },
         {
             "rank": 17,
@@ -88,18 +88,18 @@
         },
         {
             "rank": 18,
-            "name": "Noah Fant",
-            "team": "SEA"
-        },
-        {
-            "rank": 19,
             "name": "Cole Kmet",
             "team": "CHI"
         },
         {
-            "rank": 20,
+            "rank": 19,
             "name": "Hunter Henry",
             "team": "NE"
+        },
+        {
+            "rank": 20,
+            "name": "Noah Fant",
+            "team": "SEA"
         },
         {
             "rank": 21,
@@ -118,7 +118,7 @@
         },
         {
             "rank": 24,
-            "name": "Chigoziem Okonkwo",
+            "name": "Chig Okonkwo",
             "team": "TEN"
         },
         {
@@ -128,13 +128,13 @@
         },
         {
             "rank": 26,
-            "name": "Colby Parkinson",
-            "team": "LAR"
+            "name": "Zach Ertz",
+            "team": "WAS"
         },
         {
             "rank": 27,
-            "name": "Zach Ertz",
-            "team": "WAS"
+            "name": "Colby Parkinson",
+            "team": "LAR"
         },
         {
             "rank": 28,
@@ -198,36 +198,31 @@
         },
         {
             "rank": 40,
-            "name": "Cade Stover",
-            "team": "HOU"
-        },
-        {
-            "rank": 41,
             "name": "Kylen Granson",
             "team": "IND"
         },
         {
-            "rank": 42,
+            "rank": 41,
             "name": "Darnell Washington",
             "team": "PIT"
         },
         {
-            "rank": 43,
-            "name": "Donald Parham Jr.",
-            "team": "DEN"
+            "rank": 42,
+            "name": "Cade Stover",
+            "team": "HOU"
         },
         {
-            "rank": 44,
+            "rank": 43,
             "name": "Hayden Hurst",
             "team": "LAC"
         },
         {
-            "rank": 45,
+            "rank": 44,
             "name": "Irv Smith Jr.",
             "team": "FA"
         },
         {
-            "rank": 46,
+            "rank": 45,
             "name": "Daniel Bellinger",
             "team": "NYG"
         }

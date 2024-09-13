@@ -1,5 +1,5 @@
 export type Player = {
-  rank: string;
+  rank: number;
   name: string;
   team: string;
 };
@@ -9,10 +9,10 @@ export type RankingsCapture = {
   players: Player[];
 };
 
+export type YahooPlayer = {
+  [key: string]: string;
+};
+
 export type YahooResponse = {
-  players: [
-    {
-      [key: string]: string;
-    },
-  ];
+  players: YahooPlayer[];
 };

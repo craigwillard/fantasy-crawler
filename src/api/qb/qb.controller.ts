@@ -1,16 +1,16 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { CatsService } from './qb.service';
+import { QbService } from './qb.service';
 
-@Controller('harris/qb')
-export class CatsController {
-  constructor(private catsService: CatsService) {}
+@Controller('qb')
+export class QbController {
+  constructor(private catsService: QbService) {}
 
-  @Get()
+  @Get('harris')
   findAll() {
     return this.catsService.findAll();
   }
 
-  @Get(':name')
+  @Get('harris/:name')
   find(@Param('name') name: string) {
     return this.catsService.findByName(name);
   }

@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-05T15:35:51.449Z",
+    "timestamp": "2024-09-13T02:06:47.792Z",
     "players": [
         {
             "rank": 1,
@@ -28,13 +28,13 @@
         },
         {
             "rank": 6,
-            "name": "Saquon Barkley",
-            "team": "PHI"
+            "name": "Jahmyr Gibbs",
+            "team": "DET"
         },
         {
             "rank": 7,
-            "name": "Jahmyr Gibbs",
-            "team": "DET"
+            "name": "Saquon Barkley",
+            "team": "PHI"
         },
         {
             "rank": 8,
@@ -48,13 +48,13 @@
         },
         {
             "rank": 10,
-            "name": "Travis Etienne Jr.",
-            "team": "JAC"
+            "name": "De'Von Achane",
+            "team": "MIA"
         },
         {
             "rank": 11,
-            "name": "De'Von Achane",
-            "team": "MIA"
+            "name": "Travis Etienne Jr.",
+            "team": "JAC"
         },
         {
             "rank": 12,
@@ -98,13 +98,13 @@
         },
         {
             "rank": 20,
-            "name": "Aaron Jones",
-            "team": "MIN"
+            "name": "Rhamondre Stevenson",
+            "team": "NE"
         },
         {
             "rank": 21,
-            "name": "Rhamondre Stevenson",
-            "team": "NE"
+            "name": "Aaron Jones",
+            "team": "MIN"
         },
         {
             "rank": 22,
@@ -123,13 +123,13 @@
         },
         {
             "rank": 25,
-            "name": "D'Andre Swift",
-            "team": "CHI"
+            "name": "Javonte Williams",
+            "team": "DEN"
         },
         {
             "rank": 26,
-            "name": "Javonte Williams",
-            "team": "DEN"
+            "name": "D'Andre Swift",
+            "team": "CHI"
         },
         {
             "rank": 27,
@@ -143,13 +143,13 @@
         },
         {
             "rank": 29,
-            "name": "Jaylen Warren",
-            "team": "PIT"
+            "name": "Devin Singletary",
+            "team": "NYG"
         },
         {
             "rank": 30,
-            "name": "Devin Singletary",
-            "team": "NYG"
+            "name": "Jaylen Warren",
+            "team": "PIT"
         },
         {
             "rank": 31,
@@ -168,18 +168,18 @@
         },
         {
             "rank": 34,
-            "name": "Austin Ekeler",
-            "team": "WAS"
-        },
-        {
-            "rank": 35,
             "name": "Jerome Ford",
             "team": "CLE"
         },
         {
-            "rank": 36,
+            "rank": 35,
             "name": "Gus Edwards",
             "team": "LAC"
+        },
+        {
+            "rank": 36,
+            "name": "Austin Ekeler",
+            "team": "WAS"
         },
         {
             "rank": 37,
@@ -198,13 +198,13 @@
         },
         {
             "rank": 40,
-            "name": "Trey Benson",
-            "team": "ARI"
+            "name": "Ezekiel Elliott",
+            "team": "DAL"
         },
         {
             "rank": 41,
-            "name": "Ezekiel Elliott",
-            "team": "DAL"
+            "name": "Trey Benson",
+            "team": "ARI"
         },
         {
             "rank": 42,
@@ -213,13 +213,13 @@
         },
         {
             "rank": 43,
-            "name": "Nick Chubb",
-            "team": "CLE"
+            "name": "Zach Charbonnet",
+            "team": "SEA"
         },
         {
             "rank": 44,
-            "name": "Zach Charbonnet",
-            "team": "SEA"
+            "name": "Nick Chubb",
+            "team": "CLE"
         },
         {
             "rank": 45,
@@ -248,23 +248,23 @@
         },
         {
             "rank": 50,
-            "name": "Bucky Irving",
-            "team": "TB"
-        },
-        {
-            "rank": 51,
-            "name": "Jaylen Wright",
-            "team": "MIA"
-        },
-        {
-            "rank": 52,
             "name": "Antonio Gibson",
             "team": "NE"
         },
         {
-            "rank": 53,
+            "rank": 51,
+            "name": "Bucky Irving",
+            "team": "TB"
+        },
+        {
+            "rank": 52,
             "name": "Jordan Mason",
             "team": "SF"
+        },
+        {
+            "rank": 53,
+            "name": "Jaylen Wright",
+            "team": "MIA"
         },
         {
             "rank": 54,
@@ -278,18 +278,18 @@
         },
         {
             "rank": 56,
+            "name": "Braelon Allen",
+            "team": "NYJ"
+        },
+        {
+            "rank": 57,
             "name": "Kimani Vidal",
             "team": "LAC"
         },
         {
-            "rank": 57,
+            "rank": 58,
             "name": "Tyrone Tracy Jr.",
             "team": "NYG"
-        },
-        {
-            "rank": 58,
-            "name": "Braelon Allen",
-            "team": "NYJ"
         },
         {
             "rank": 59,
@@ -298,18 +298,18 @@
         },
         {
             "rank": 60,
-            "name": "Justice Hill",
-            "team": "BAL"
-        },
-        {
-            "rank": 61,
             "name": "Samaje Perine",
             "team": "KC"
         },
         {
-            "rank": 62,
+            "rank": 61,
             "name": "Tank Bigsby",
             "team": "JAC"
+        },
+        {
+            "rank": 62,
+            "name": "Justice Hill",
+            "team": "BAL"
         },
         {
             "rank": 63,
@@ -328,28 +328,28 @@
         },
         {
             "rank": 66,
+            "name": "Cordarrelle Patterson",
+            "team": "PIT"
+        },
+        {
+            "rank": 67,
             "name": "Alexander Mattison",
             "team": "LV"
         },
         {
-            "rank": 67,
+            "rank": 68,
             "name": "Trey Sermon",
             "team": "IND"
         },
         {
-            "rank": 68,
+            "rank": 69,
             "name": "Miles Sanders",
             "team": "CAR"
         },
         {
-            "rank": 69,
+            "rank": 70,
             "name": "Dameon Pierce",
             "team": "HOU"
-        },
-        {
-            "rank": 70,
-            "name": "Cordarrelle Patterson",
-            "team": "PIT"
         },
         {
             "rank": 71,
@@ -383,23 +383,23 @@
         },
         {
             "rank": 77,
-            "name": "Dalvin Cook",
-            "team": "DAL"
-        },
-        {
-            "rank": 78,
             "name": "Isaac Guerendo",
             "team": "SF"
         },
         {
+            "rank": 78,
+            "name": "D'Onta Foreman",
+            "team": "CLE"
+        },
+        {
             "rank": 79,
-            "name": "Emanuel Wilson",
-            "team": "GB"
+            "name": "Dalvin Cook",
+            "team": "DAL"
         },
         {
             "rank": 80,
-            "name": "Clyde Edwards-Helaire",
-            "team": "KC"
+            "name": "Emanuel Wilson",
+            "team": "GB"
         }
     ]
 }

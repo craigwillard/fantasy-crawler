@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-05T15:35:51.459Z",
+    "timestamp": "2024-09-13T02:06:47.796Z",
     "players": [
         {
             "rank": 1,
@@ -53,23 +53,23 @@
         },
         {
             "rank": 11,
-            "name": "Davante Adams",
-            "team": "LV"
-        },
-        {
-            "rank": 12,
             "name": "Mike Evans",
             "team": "TB"
         },
         {
+            "rank": 12,
+            "name": "Davante Adams",
+            "team": "LV"
+        },
+        {
             "rank": 13,
-            "name": "Chris Olave",
-            "team": "NO"
+            "name": "Cooper Kupp",
+            "team": "LAR"
         },
         {
             "rank": 14,
-            "name": "Brandon Aiyuk",
-            "team": "SF"
+            "name": "Chris Olave",
+            "team": "NO"
         },
         {
             "rank": 15,
@@ -78,8 +78,8 @@
         },
         {
             "rank": 16,
-            "name": "Cooper Kupp",
-            "team": "LAR"
+            "name": "Brandon Aiyuk",
+            "team": "SF"
         },
         {
             "rank": 17,
@@ -143,18 +143,18 @@
         },
         {
             "rank": 29,
-            "name": "Tee Higgins",
-            "team": "CIN"
-        },
-        {
-            "rank": 30,
             "name": "Tank Dell",
             "team": "HOU"
         },
         {
-            "rank": 31,
+            "rank": 30,
             "name": "George Pickens",
             "team": "PIT"
+        },
+        {
+            "rank": 31,
+            "name": "Tee Higgins",
+            "team": "CIN"
         },
         {
             "rank": 32,
@@ -193,13 +193,13 @@
         },
         {
             "rank": 39,
-            "name": "Jaxon Smith-Njigba",
-            "team": "SEA"
+            "name": "Brian Thomas Jr.",
+            "team": "JAC"
         },
         {
             "rank": 40,
-            "name": "Brian Thomas Jr.",
-            "team": "JAC"
+            "name": "Jaxon Smith-Njigba",
+            "team": "SEA"
         },
         {
             "rank": 41,
@@ -233,13 +233,13 @@
         },
         {
             "rank": 47,
-            "name": "Marquise Brown",
+            "name": "Hollywood Brown",
             "team": "KC"
         },
         {
             "rank": 48,
-            "name": "Tyler Lockett",
-            "team": "SEA"
+            "name": "Ladd McConkey",
+            "team": "LAC"
         },
         {
             "rank": 49,
@@ -248,8 +248,8 @@
         },
         {
             "rank": 50,
-            "name": "Ladd McConkey",
-            "team": "LAC"
+            "name": "Tyler Lockett",
+            "team": "SEA"
         },
         {
             "rank": 51,
@@ -303,13 +303,13 @@
         },
         {
             "rank": 61,
-            "name": "Dontayvion Wicks",
-            "team": "GB"
+            "name": "Gabe Davis",
+            "team": "JAC"
         },
         {
             "rank": 62,
-            "name": "Gabe Davis",
-            "team": "JAC"
+            "name": "Dontayvion Wicks",
+            "team": "GB"
         },
         {
             "rank": 63,
@@ -333,18 +333,18 @@
         },
         {
             "rank": 67,
+            "name": "DeMario Douglas",
+            "team": "NE"
+        },
+        {
+            "rank": 68,
             "name": "Adam Thielen",
             "team": "CAR"
         },
         {
-            "rank": 68,
+            "rank": 69,
             "name": "Darnell Mooney",
             "team": "ATL"
-        },
-        {
-            "rank": 69,
-            "name": "DeMario Douglas",
-            "team": "NE"
         },
         {
             "rank": 70,
@@ -358,13 +358,13 @@
         },
         {
             "rank": 72,
-            "name": "Andrei Iosivas",
-            "team": "CIN"
+            "name": "Wan'Dale Robinson",
+            "team": "NYG"
         },
         {
             "rank": 73,
-            "name": "Wan'Dale Robinson",
-            "team": "NYG"
+            "name": "Andrei Iosivas",
+            "team": "CIN"
         },
         {
             "rank": 74,
@@ -373,33 +373,33 @@
         },
         {
             "rank": 75,
+            "name": "Roman Wilson",
+            "team": "PIT"
+        },
+        {
+            "rank": 76,
             "name": "Elijah Moore",
             "team": "CLE"
         },
         {
-            "rank": 76,
+            "rank": 77,
             "name": "Darius Slayton",
             "team": "NYG"
         },
         {
-            "rank": 77,
+            "rank": 78,
             "name": "Demarcus Robinson",
             "team": "LAR"
         },
         {
-            "rank": 78,
+            "rank": 79,
             "name": "Xavier Legette",
             "team": "CAR"
         },
         {
-            "rank": 79,
+            "rank": 80,
             "name": "Greg Dortch",
             "team": "ARI"
-        },
-        {
-            "rank": 80,
-            "name": "Jalin Hyatt",
-            "team": "NYG"
         }
     ]
 }

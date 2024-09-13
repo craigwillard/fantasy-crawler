@@ -73,4 +73,4 @@ export const ESPN: Source = {
   },
 };
 
-export const AllSources: Sources = [Harris, Yahoo, ESPN];
+export const AllSources: Sources = [Yahoo, ESPN];

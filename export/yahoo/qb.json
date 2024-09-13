@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-05T15:35:51.447Z",
+    "timestamp": "2024-09-13T02:06:47.786Z",
     "players": [
         {
             "rank": 1,
@@ -28,13 +28,13 @@
         },
         {
             "rank": 6,
-            "name": "Kyler Murray",
-            "team": "ARI"
+            "name": "C.J. Stroud",
+            "team": "HOU"
         },
         {
             "rank": 7,
-            "name": "C.J. Stroud",
-            "team": "HOU"
+            "name": "Kyler Murray",
+            "team": "ARI"
         },
         {
             "rank": 8,
@@ -43,13 +43,13 @@
         },
         {
             "rank": 9,
-            "name": "Joe Burrow",
-            "team": "CIN"
+            "name": "Jayden Daniels",
+            "team": "WAS"
         },
         {
             "rank": 10,
-            "name": "Jayden Daniels",
-            "team": "WAS"
+            "name": "Joe Burrow",
+            "team": "CIN"
         },
         {
             "rank": 11,
@@ -178,13 +178,13 @@
         },
         {
             "rank": 36,
-            "name": "Jameis Winston",
-            "team": "CLE"
+            "name": "Drew Lock",
+            "team": "NYG"
         },
         {
             "rank": 37,
-            "name": "Drew Lock",
-            "team": "NYG"
+            "name": "Jameis Winston",
+            "team": "CLE"
         },
         {
             "rank": 38,
@@ -193,33 +193,28 @@
         },
         {
             "rank": 39,
-            "name": "Joe Flacco",
-            "team": "IND"
-        },
-        {
-            "rank": 40,
-            "name": "Spencer Rattler",
-            "team": "NO"
-        },
-        {
-            "rank": 41,
             "name": "Sam Howell",
             "team": "SEA"
         },
         {
+            "rank": 40,
+            "name": "Joe Flacco",
+            "team": "IND"
+        },
+        {
+            "rank": 41,
+            "name": "Michael Penix Jr.",
+            "team": "ATL"
+        },
+        {
             "rank": 42,
-            "name": "Jake Browning",
-            "team": "CIN"
+            "name": "Spencer Rattler",
+            "team": "NO"
         },
         {
             "rank": 43,
-            "name": "Joshua Dobbs",
-            "team": "SF"
-        },
-        {
-            "rank": 44,
-            "name": "Michael Penix Jr.",
-            "team": "ATL"
+            "name": "Jake Browning",
+            "team": "CIN"
         }
     ]
 }

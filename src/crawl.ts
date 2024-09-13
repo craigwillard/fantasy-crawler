@@ -44,7 +44,9 @@ async function fetchRanksConcurrently(sources: Sources) {
             const team = body(element).find(teamSelector).text();
             if (!!rank && index - 1 < MAX_PLAYERS) {
               collection.players.push({
-                rank: rankRegex ? rank.match(rankRegex)![1] : rank,
+                rank: rankRegex
+                  ? Number(rank.match(rankRegex)![1])
+                  : Number(rank),
                 name,
                 team: teamRegex
                   ? team.match(teamRegex)![1].toUpperCase().trim()
@@ -58,7 +60,7 @@ async function fetchRanksConcurrently(sources: Sources) {
           players.forEach((player, index) => {
             if (index < MAX_PLAYERS) {
               collection.players.push({
-                rank: player[rankSelector],
+                rank: Number(player[rankSelector]),
                 name: player[nameSelector],
                 team: player[teamSelector],
               });
