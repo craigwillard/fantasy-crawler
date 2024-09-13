@@ -25,11 +25,19 @@ export class QbService {
         this.unifiedQbs[name].average =
           this.unifiedQbs[name].ranks.reduce((a, b) => a + b) /
           this.unifiedQbs[name].ranks.length;
+        this.unifiedQbs[name].maximum = Math.max(
+          ...this.unifiedQbs[name].ranks,
+        );
+        this.unifiedQbs[name].minimum = Math.min(
+          ...this.unifiedQbs[name].ranks,
+        );
       } else {
         this.unifiedQbs[name] = {
           team: player.team,
           ranks: [player.rank],
           average: player.rank,
+          maximum: player.rank,
+          minimum: player.rank,
         };
       }
     });
