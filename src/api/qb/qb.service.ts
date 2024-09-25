@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import * as EspnQbs from '../../../export/espn/qb.json';
 import * as HarrisQbs from '../../../export/harris/qb.json';
 import * as YahooQbs from '../../../export/yahoo/qb.json';
-import { Player, UnifiedPlayers } from 'src/types/player';
+import { Player, UnifiedPlayer, UnifiedPlayers } from 'src/types/player';
 import { transformNormalizeName } from 'src/common/utils';
 
 @Injectable()
@@ -19,34 +19,46 @@ export class QbService {
     this.unifiedQbs = {};
 
     this.espnQbs.concat(this.harrisQbs, this.yahooQbs).forEach((player) => {
-      const name = transformNormalizeName(player.name);
-      if (this.unifiedQbs.hasOwnProperty(name)) {
-        this.unifiedQbs[name].ranks.push(player.rank);
-        this.unifiedQbs[name].average =
-          this.unifiedQbs[name].ranks.reduce((a, b) => a + b) /
-          this.unifiedQbs[name].ranks.length;
-        this.unifiedQbs[name].maximum = Math.max(
-          ...this.unifiedQbs[name].ranks,
-        );
-        this.unifiedQbs[name].minimum = Math.min(
-          ...this.unifiedQbs[name].ranks,
-        );
+      const { name, team, rank } = player;
+      const playerName = transformNormalizeName(name);
+      if (this.unifiedQbs.hasOwnProperty(playerName)) {
+        const playa = this.unifiedQbs[playerName];
+        playa.ranks.push(rank);
+        playa.average =
+          playa.ranks.reduce((a, b) => a + b) / playa.ranks.length;
+        playa.maximum = Math.max(...playa.ranks);
+        playa.minimum = Math.min(...playa.ranks);
       } else {
         this.unifiedQbs[name] = {
-          team: player.team,
-          ranks: [player.rank],
-          average: player.rank,
-          maximum: player.rank,
-          minimum: player.rank,
+          name,
+          team,
+          ranks: [rank],
+          average: rank,
+          maximum: rank,
+          minimum: rank,
         };
       }
     });
 
-    console.log(this.unifiedQbs);
+    // console.log(this.unifiedQbs);
   }
 
   findAll() {
-    return this.unifiedQbs;
+    // console.log(Object.entries(this.unifiedQbs));
+    const arrUnifiedQbs: UnifiedPlayer[] = [];
+    Object.entries(this.unifiedQbs).forEach((player) => {
+      const [, playerDetails] = player;
+      arrUnifiedQbs.push(playerDetails);
+    });
+    // return this.unifiedQbs;
+    return arrUnifiedQbs
+      .sort((a, b) => a.average - b.average)
+      .map((player, index) => {
+        return {
+          ...player,
+          rank: index + 1,
+        };
+      });
   }
 
   findAllHarris() {

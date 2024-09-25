@@ -3,20 +3,20 @@ import { QbService } from './qb.service';
 
 @Controller('qb')
 export class QbController {
-  constructor(private catsService: QbService) {}
+  constructor(private qbService: QbService) {}
 
   @Get()
   findAll() {
-    return this.catsService.findAll();
+    return this.qbService.findAll();
   }
 
   @Get('harris')
   findAllHarris() {
-    return this.catsService.findAllHarris();
+    return this.qbService.findAllHarris();
   }
 
   @Get('harris/:name')
   find(@Param('name') name: string) {
-    return this.catsService.findByNameHarris(name);
+    return this.qbService.findByNameHarris(name);
   }
 }

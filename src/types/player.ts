@@ -17,12 +17,16 @@ export type YahooResponse = {
   players: YahooPlayer[];
 };
 
+export type UnifiedPlayer = {
+  name: string;
+  team: string;
+  rank?: number;
+  ranks: number[];
+  average: number;
+  maximum: number;
+  minimum: number;
+};
+
 export type UnifiedPlayers = {
-  [key: string]: {
-    team: string;
-    ranks: number[];
-    average: number;
-    maximum: number;
-    minimum: number;
-  };
+  [key: string]: UnifiedPlayer;
 };
