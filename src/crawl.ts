@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
 import { RankingsCapture, YahooResponse } from './types/player';
 import { Source, Sources } from './types/source';
-import { AllSources } from './sources/sources';
+import { AllSources } from './sources/football';
 
 const MAX_PLAYERS = 80;
 

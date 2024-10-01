@@ -29,7 +29,7 @@ export class QbService {
         playa.maximum = Math.max(...playa.ranks);
         playa.minimum = Math.min(...playa.ranks);
       } else {
-        this.unifiedQbs[name] = {
+        this.unifiedQbs[playerName] = {
           name,
           team,
           ranks: [rank],

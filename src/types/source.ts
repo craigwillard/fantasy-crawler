@@ -1,4 +1,6 @@
 export type Field = 'rank' | 'name' | 'team';
+export type FootballPosition = 'qb' | 'rb' | 'wr' | 'te' | 'def';
+export type BasketballPosition = 'pg' | 'sg' | 'sf' | 'pf' | 'c';
 
 export type FieldDetails = {
   selector: string;
@@ -9,11 +11,7 @@ export type Source = {
   name: string;
   method: 'HTTP' | 'GET';
   urls: {
-    qb: string;
-    rb: string;
-    wr: string;
-    te: string;
-    def: string;
+    [key in FootballPosition | BasketballPosition]?: string;
   };
   tableSelector?: string;
   fieldDetails: {
