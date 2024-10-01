@@ -1,0 +1,355 @@
+{
+    "timestamp": "2024-10-01T21:58:22.648Z",
+    "players": [
+        {
+            "rank": 1,
+            "name": "Luka Dončić",
+            "team": "DAL"
+        },
+        {
+            "rank": 2,
+            "name": "Tyrese Haliburton",
+            "team": "IND"
+        },
+        {
+            "rank": 3,
+            "name": "Stephen Curry",
+            "team": "GSW"
+        },
+        {
+            "rank": 4,
+            "name": "Donovan Mitchell",
+            "team": "CLE"
+        },
+        {
+            "rank": 5,
+            "name": "Kyrie Irving",
+            "team": "DAL"
+        },
+        {
+            "rank": 6,
+            "name": "Devin Booker",
+            "team": "PHX"
+        },
+        {
+            "rank": 7,
+            "name": "Anthony Edwards",
+            "team": "MIN"
+        },
+        {
+            "rank": 8,
+            "name": "James Harden",
+            "team": "LAC"
+        },
+        {
+            "rank": 9,
+            "name": "LaMelo Ball",
+            "team": "CHA"
+        },
+        {
+            "rank": 10,
+            "name": "Scottie Barnes",
+            "team": "TOR"
+        },
+        {
+            "rank": 11,
+            "name": "Paul George",
+            "team": "PHI"
+        },
+        {
+            "rank": 12,
+            "name": "Tyrese Maxey",
+            "team": "PHI"
+        },
+        {
+            "rank": 13,
+            "name": "Dejounte Murray",
+            "team": "NOP"
+        },
+        {
+            "rank": 14,
+            "name": "Kawhi Leonard",
+            "team": "LAC"
+        },
+        {
+            "rank": 15,
+            "name": "Cade Cunningham",
+            "team": "DET"
+        },
+        {
+            "rank": 16,
+            "name": "Desmond Bane",
+            "team": "MEM"
+        },
+        {
+            "rank": 17,
+            "name": "Jalen Williams",
+            "team": "OKC"
+        },
+        {
+            "rank": 18,
+            "name": "Derrick White",
+            "team": "BOS"
+        },
+        {
+            "rank": 19,
+            "name": "Jaylen Brown",
+            "team": "BOS"
+        },
+        {
+            "rank": 20,
+            "name": "Jamal Murray",
+            "team": "DEN"
+        },
+        {
+            "rank": 21,
+            "name": "Immanuel Quickley",
+            "team": "TOR"
+        },
+        {
+            "rank": 22,
+            "name": "Brandon Ingram",
+            "team": "NOP"
+        },
+        {
+            "rank": 23,
+            "name": "Mikal Bridges",
+            "team": "NYK"
+        },
+        {
+            "rank": 24,
+            "name": "Zach LaVine",
+            "team": "CHI"
+        },
+        {
+            "rank": 25,
+            "name": "Brandon Miller",
+            "team": "CHA"
+        },
+        {
+            "rank": 26,
+            "name": "Devin Vassell",
+            "team": "SAS"
+        },
+        {
+            "rank": 27,
+            "name": "Cam Thomas",
+            "team": "BKN"
+        },
+        {
+            "rank": 28,
+            "name": "Tyler Herro",
+            "team": "MIA"
+        },
+        {
+            "rank": 29,
+            "name": "Josh Giddey",
+            "team": "CHI"
+        },
+        {
+            "rank": 30,
+            "name": "Bradley Beal",
+            "team": "PHX"
+        },
+        {
+            "rank": 31,
+            "name": "CJ McCollum",
+            "team": "NOP"
+        },
+        {
+            "rank": 32,
+            "name": "Jrue Holiday",
+            "team": "BOS"
+        },
+        {
+            "rank": 33,
+            "name": "Coby White",
+            "team": "CHI"
+        },
+        {
+            "rank": 34,
+            "name": "Jalen Suggs",
+            "team": "ORL"
+        },
+        {
+            "rank": 35,
+            "name": "Anfernee Simons",
+            "team": "POR"
+        },
+        {
+            "rank": 36,
+            "name": "Austin Reaves",
+            "team": "LAL"
+        },
+        {
+            "rank": 37,
+            "name": "Jordan Poole",
+            "team": "WAS"
+        },
+        {
+            "rank": 38,
+            "name": "Alex Caruso",
+            "team": "OKC"
+        },
+        {
+            "rank": 39,
+            "name": "Jalen Green",
+            "team": "HOU"
+        },
+        {
+            "rank": 40,
+            "name": "Bogdan Bogdanović",
+            "team": "ATL"
+        },
+        {
+            "rank": 41,
+            "name": "Malcolm Brogdon",
+            "team": "WAS"
+        },
+        {
+            "rank": 42,
+            "name": "Marcus Smart",
+            "team": "MEM"
+        },
+        {
+            "rank": 43,
+            "name": "Collin Sexton",
+            "team": "UTA"
+        },
+        {
+            "rank": 44,
+            "name": "Ayo Dosunmu",
+            "team": "CHI"
+        },
+        {
+            "rank": 45,
+            "name": "Andrew Nembhard",
+            "team": "IND"
+        },
+        {
+            "rank": 46,
+            "name": "Shaedon Sharpe",
+            "team": "POR"
+        },
+        {
+            "rank": 47,
+            "name": "Keyonte George",
+            "team": "UTA"
+        },
+        {
+            "rank": 48,
+            "name": "Malik Monk",
+            "team": "SAC"
+        },
+        {
+            "rank": 49,
+            "name": "Amen Thompson",
+            "team": "HOU"
+        },
+        {
+            "rank": 50,
+            "name": "Gary Trent Jr.",
+            "team": "MIL"
+        },
+        {
+            "rank": 51,
+            "name": "Kentavious Caldwell-Pope",
+            "team": "ORL"
+        },
+        {
+            "rank": 52,
+            "name": "Brandin Podziemski",
+            "team": "GSW"
+        },
+        {
+            "rank": 53,
+            "name": "Jordan Clarkson",
+            "team": "UTA"
+        },
+        {
+            "rank": 54,
+            "name": "Buddy Hield",
+            "team": "GSW"
+        },
+        {
+            "rank": 55,
+            "name": "De'Anthony Melton",
+            "team": "GSW"
+        },
+        {
+            "rank": 56,
+            "name": "Vince Williams Jr.",
+            "team": "MEM"
+        },
+        {
+            "rank": 57,
+            "name": "Norman Powell",
+            "team": "LAC"
+        },
+        {
+            "rank": 58,
+            "name": "Klay Thompson",
+            "team": "DAL"
+        },
+        {
+            "rank": 59,
+            "name": "Donte DiVincenzo",
+            "team": "MIN"
+        },
+        {
+            "rank": 60,
+            "name": "Grayson Allen",
+            "team": "PHX"
+        },
+        {
+            "rank": 61,
+            "name": "Keldon Johnson",
+            "team": "SAS"
+        },
+        {
+            "rank": 62,
+            "name": "Jaden Ivey",
+            "team": "DET"
+        },
+        {
+            "rank": 63,
+            "name": "Dyson Daniels",
+            "team": "ATL"
+        },
+        {
+            "rank": 64,
+            "name": "Bruce Brown",
+            "team": "TOR"
+        },
+        {
+            "rank": 65,
+            "name": "Max Strus",
+            "team": "CLE"
+        },
+        {
+            "rank": 66,
+            "name": "Christian Braun",
+            "team": "DEN"
+        },
+        {
+            "rank": 67,
+            "name": "Kelly Oubre Jr.",
+            "team": "PHI"
+        },
+        {
+            "rank": 68,
+            "name": "Caleb Martin",
+            "team": "PHI"
+        },
+        {
+            "rank": 69,
+            "name": "Caris LeVert",
+            "team": "CLE"
+        },
+        {
+            "rank": 70,
+            "name": "Bennedict Mathurin",
+            "team": "IND"
+        }
+    ]
+}

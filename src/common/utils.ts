@@ -9,3 +9,15 @@ export function transformNormalizeName(name: string): string {
     .replace('sr', '')
     .trim();
 }
+
+export function getNestedProperty(obj, path: string) {
+  const keys = path.split('.');
+  let current = obj;
+
+  for (const key of keys) {
+    if (!current[key]) return undefined;
+    current = current[key];
+  }
+
+  return current;
+}

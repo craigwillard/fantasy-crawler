@@ -1,9 +1,10 @@
 import fs from 'fs';
 import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
-import { RankingsCapture, YahooResponse } from './types/player';
+import { RankingsCapture, YahooBasketballResponse } from './types/player';
 import { Source, Sources } from './types/source';
-import { AllSources } from './sources/football';
+import { AllSources } from './sources/basketball';
+import { getNestedProperty } from './common/utils';
 
 const MAX_PLAYERS = 80;
 
@@ -55,14 +56,18 @@ async function fetchRanksConcurrently(sources: Sources) {
             }
           });
         } else {
-          const { players } = response.value as YahooResponse;
+          const {
+            fantasy_content: {
+              league: { players },
+            },
+          } = response.value as YahooBasketballResponse;
 
           players.forEach((player, index) => {
             if (index < MAX_PLAYERS) {
               collection.players.push({
-                rank: Number(player[rankSelector]),
-                name: player[nameSelector],
-                team: player[teamSelector],
+                rank: rankSelector ? Number(player[rankSelector]) : index + 1,
+                name: getNestedProperty(player, nameSelector),
+                team: getNestedProperty(player, teamSelector),
               });
             }
           });

@@ -4,21 +4,21 @@ export const Yahoo: Source = {
   name: 'Yahoo',
   method: 'GET',
   urls: {
-    pg: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=PG;start=0;count=30;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
-    sg: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=SG;start=0;count=30;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
-    sf: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=SF;start=0;count=30;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
-    pf: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=PF;start=0;count=30;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
-    c: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=C;start=0;count=30;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
+    pg: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=PG;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
+    sg: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=SG;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
+    sf: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=SF;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
+    pf: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=PF;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
+    c: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=C;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
   },
   fieldDetails: {
     rank: {
-      selector: 'rank_ecr',
+      selector: '',
     },
     name: {
-      selector: 'player_name',
+      selector: 'player.name.full',
     },
     team: {
-      selector: 'player_team_id',
+      selector: 'player.editorial_team_abbr',
     },
   },
 };

@@ -9,12 +9,29 @@ export type RankingsCapture = {
   players: Player[];
 };
 
-export type YahooPlayer = {
+export type YahooFootballPlayer = {
   [key: string]: string;
 };
 
-export type YahooResponse = {
-  players: YahooPlayer[];
+export type YahooFootballResponse = {
+  players: YahooFootballPlayer[];
+};
+
+export type YahooBasketballPlayer = {
+  player: {
+    name: {
+      full: string;
+    };
+    editorial_team_abbr: string;
+  };
+};
+
+export type YahooBasketballResponse = {
+  fantasy_content: {
+    league: {
+      players: YahooBasketballPlayer[];
+    };
+  };
 };
 
 export type UnifiedPlayer = {
