@@ -2,6 +2,7 @@ import { Source, Sources } from '../types/source';
 
 export const Yahoo: Source = {
   name: 'Yahoo',
+  league: 'NBA',
   method: 'GET',
   urls: {
     pg: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=PG;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
@@ -25,6 +26,7 @@ export const Yahoo: Source = {
 
 export const ESPN: Source = {
   name: 'ESPN',
+  league: 'NBA',
   method: 'HTTP',
   urls: {
     qb: 'https://fantasy.espn.com/football/tools/fantasyRankings?slotCategoryId=0&scoringPeriodId=0&seasonId=2024&count=80',

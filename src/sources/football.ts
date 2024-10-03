@@ -2,6 +2,7 @@ import { Source, Sources } from '../types/source';
 
 export const Harris: Source = {
   name: 'Harris',
+  league: 'NFL',
   method: 'HTTP',
   urls: {
     qb: 'https://www.harrisfootball.com/ranks-draft',
@@ -26,6 +27,7 @@ export const Harris: Source = {
 
 export const Yahoo: Source = {
   name: 'Yahoo',
+  league: 'NFL',
   method: 'GET',
   urls: {
     qb: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=QB&sport=NFL&year=2024&week=0&experts=show&id=1663&type=ST&scoring=HALF&filters=7%3A9%3A285%3A747%3A4338&widget=ST',
@@ -49,6 +51,7 @@ export const Yahoo: Source = {
 
 export const ESPN: Source = {
   name: 'ESPN',
+  league: 'NFL',
   method: 'HTTP',
   urls: {
     qb: 'https://fantasy.espn.com/football/tools/fantasyRankings?slotCategoryId=0&scoringPeriodId=0&seasonId=2024&count=80',

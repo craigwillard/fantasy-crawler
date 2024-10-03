@@ -1,10 +1,10 @@
 {
-    "timestamp": "2024-09-13T02:06:48.489Z",
+    "timestamp": "2024-10-03T17:48:26.924Z",
     "players": [
         {
             "rank": 1,
             "name": "Christian McCaffrey",
-            "team": "SFQ"
+            "team": "SFIR"
         },
         {
             "rank": 2,
@@ -19,7 +19,7 @@
         {
             "rank": 4,
             "name": "Jonathan Taylor",
-            "team": "IND"
+            "team": "INDQ"
         },
         {
             "rank": 5,
@@ -39,12 +39,12 @@
         {
             "rank": 8,
             "name": "Isiah Pacheco",
-            "team": "KC"
+            "team": "KCIR"
         },
         {
             "rank": 9,
             "name": "Travis Etienne Jr.",
-            "team": "JAX"
+            "team": "JAXQ"
         },
         {
             "rank": 10,
@@ -64,7 +64,7 @@
         {
             "rank": 13,
             "name": "Joe Mixon",
-            "team": "HOU"
+            "team": "HOUQ"
         },
         {
             "rank": 14,
@@ -74,12 +74,12 @@
         {
             "rank": 15,
             "name": "Josh Jacobs",
-            "team": "GBQ"
+            "team": "GB"
         },
         {
             "rank": 16,
             "name": "Kenneth Walker III",
-            "team": "SEAQ"
+            "team": "SEA"
         },
         {
             "rank": 17,
@@ -114,7 +114,7 @@
         {
             "rank": 23,
             "name": "Zamir White",
-            "team": "LV"
+            "team": "LVQ"
         },
         {
             "rank": 24,
@@ -124,7 +124,7 @@
         {
             "rank": 25,
             "name": "Brian Robinson Jr.",
-            "team": "WSH"
+            "team": "WSHQ"
         },
         {
             "rank": 26,
@@ -134,7 +134,7 @@
         {
             "rank": 27,
             "name": "Jaylen Warren",
-            "team": "PIT"
+            "team": "PITQ"
         },
         {
             "rank": 28,
@@ -144,12 +144,12 @@
         {
             "rank": 29,
             "name": "Austin Ekeler",
-            "team": "WSH"
+            "team": "WSHQ"
         },
         {
             "rank": 30,
             "name": "Raheem Mostert",
-            "team": "MIAO"
+            "team": "MIAQ"
         },
         {
             "rank": 31,
@@ -159,7 +159,7 @@
         {
             "rank": 32,
             "name": "Devin Singletary",
-            "team": "NYG"
+            "team": "NYGQ"
         },
         {
             "rank": 33,
@@ -214,7 +214,7 @@
         {
             "rank": 43,
             "name": "Antonio Gibson",
-            "team": "NEQ"
+            "team": "NE"
         },
         {
             "rank": 44,
@@ -319,7 +319,7 @@
         {
             "rank": 64,
             "name": "Cordarrelle Patterson",
-            "team": "PIT"
+            "team": "PITQ"
         },
         {
             "rank": 65,
@@ -401,5 +401,6 @@
             "name": "Denard Robinson",
             "team": "JAX"
         }
-    ]
+    ],
+    "source": "ESPN"
 }

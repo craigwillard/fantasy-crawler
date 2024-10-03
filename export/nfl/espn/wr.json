@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-13T02:06:48.577Z",
+    "timestamp": "2024-10-03T17:48:27.025Z",
     "players": [
         {
             "rank": 1,
@@ -29,7 +29,7 @@
         {
             "rank": 6,
             "name": "A.J. Brown",
-            "team": "PHI"
+            "team": "PHIO"
         },
         {
             "rank": 7,
@@ -49,7 +49,7 @@
         {
             "rank": 10,
             "name": "Davante Adams",
-            "team": "LV"
+            "team": "LVQ"
         },
         {
             "rank": 11,
@@ -74,7 +74,7 @@
         {
             "rank": 15,
             "name": "Nico Collins",
-            "team": "HOUQ"
+            "team": "HOU"
         },
         {
             "rank": 16,
@@ -89,12 +89,12 @@
         {
             "rank": 18,
             "name": "DeVonta Smith",
-            "team": "PHI"
+            "team": "PHIO"
         },
         {
             "rank": 19,
             "name": "Cooper Kupp",
-            "team": "LAR"
+            "team": "LARO"
         },
         {
             "rank": 20,
@@ -134,12 +134,12 @@
         {
             "rank": 27,
             "name": "Tee Higgins",
-            "team": "CINQ"
+            "team": "CIN"
         },
         {
             "rank": 28,
             "name": "Rashee Rice",
-            "team": "KC"
+            "team": "KCO"
         },
         {
             "rank": 29,
@@ -154,7 +154,7 @@
         {
             "rank": 31,
             "name": "Tank Dell",
-            "team": "HOU"
+            "team": "HOUQ"
         },
         {
             "rank": 32,
@@ -174,17 +174,17 @@
         {
             "rank": 35,
             "name": "Keenan Allen",
-            "team": "CHIQ"
+            "team": "CHI"
         },
         {
             "rank": 36,
             "name": "Diontae Johnson",
-            "team": "CAR"
+            "team": "CARQ"
         },
         {
             "rank": 37,
             "name": "Christian Watson",
-            "team": "GB"
+            "team": "GBD"
         },
         {
             "rank": 38,
@@ -204,7 +204,7 @@
         {
             "rank": 41,
             "name": "Jordan Addison",
-            "team": "MINQ"
+            "team": "MIN"
         },
         {
             "rank": 42,
@@ -224,7 +224,7 @@
         {
             "rank": 45,
             "name": "Rome Odunze",
-            "team": "CHIQ"
+            "team": "CHI"
         },
         {
             "rank": 46,
@@ -234,7 +234,7 @@
         {
             "rank": 47,
             "name": "Hollywood Brown",
-            "team": "KCQ"
+            "team": "KCIR"
         },
         {
             "rank": 48,
@@ -269,7 +269,7 @@
         {
             "rank": 54,
             "name": "Jameson Williams",
-            "team": "DETQ"
+            "team": "DET"
         },
         {
             "rank": 55,
@@ -279,17 +279,17 @@
         {
             "rank": 56,
             "name": "Adam Thielen",
-            "team": "CAR"
+            "team": "CARIR"
         },
         {
             "rank": 57,
             "name": "Gabe Davis",
-            "team": "JAX"
+            "team": "JAXQ"
         },
         {
             "rank": 58,
             "name": "Joshua Palmer",
-            "team": "LACQ"
+            "team": "LAC"
         },
         {
             "rank": 59,
@@ -299,7 +299,7 @@
         {
             "rank": 60,
             "name": "Khalil Shakir",
-            "team": "BUF"
+            "team": "BUFQ"
         },
         {
             "rank": 61,
@@ -309,7 +309,7 @@
         {
             "rank": 62,
             "name": "Brandin Cooks",
-            "team": "DAL"
+            "team": "DALO"
         },
         {
             "rank": 63,
@@ -329,7 +329,7 @@
         {
             "rank": 66,
             "name": "Wan'Dale Robinson",
-            "team": "NYG"
+            "team": "NYGQ"
         },
         {
             "rank": 67,
@@ -401,5 +401,6 @@
             "name": "Justin Hunter",
             "team": "FA"
         }
-    ]
+    ],
+    "source": "ESPN"
 }

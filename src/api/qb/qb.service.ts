@@ -33,9 +33,11 @@ export class QbService {
           name,
           team,
           ranks: [rank],
+          rank,
           average: rank,
           maximum: rank,
           minimum: rank,
+          id: crypto.randomUUID(),
         };
       }
     });

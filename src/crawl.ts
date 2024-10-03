@@ -1,16 +1,18 @@
 import fs from 'fs';
 import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
-import { RankingsCapture, YahooBasketballResponse } from './types/player';
+import { RankingsCapture, YahooFootballResponse } from './types/player';
 import { Source, Sources } from './types/source';
-import { AllSources } from './sources/basketball';
+import { AllSources } from './sources/football';
 import { getNestedProperty } from './common/utils';
+
+// TODO: crawl and group by sport
 
 const MAX_PLAYERS = 80;
 
 async function fetchRanksConcurrently(sources: Sources) {
   sources.forEach(async (source) => {
-    const { urls, method } = source;
+    const { urls, method, name, league } = source;
     const http = method === 'HTTP';
     const positions = Object.keys(urls);
     const sourceUrls = Object.values(urls);
@@ -34,6 +36,7 @@ async function fetchRanksConcurrently(sources: Sources) {
         const collection: RankingsCapture = {
           timestamp: new Date(),
           players: [],
+          source: name,
         };
         if (http) {
           const body = cheerio.load(response.value as string);
@@ -56,11 +59,13 @@ async function fetchRanksConcurrently(sources: Sources) {
             }
           });
         } else {
-          const {
-            fantasy_content: {
-              league: { players },
-            },
-          } = response.value as YahooBasketballResponse;
+          const { players } = response.value as YahooFootballResponse;
+
+          // const {
+          //   fantasy_content: {
+          //     league: { players },
+          //   },
+          // } = response.value as YahooFootballResponse;
 
           players.forEach((player, index) => {
             if (index < MAX_PLAYERS) {
@@ -75,7 +80,7 @@ async function fetchRanksConcurrently(sources: Sources) {
 
         console.log(collection);
 
-        saveJson(collection, source.name, positions[index]);
+        saveJson(league, collection, source.name, positions[index]);
 
         // console.log(`Content of ${sourceUrls[index]}:`, response.value);
       } else {
@@ -86,13 +91,14 @@ async function fetchRanksConcurrently(sources: Sources) {
 }
 
 function saveJson(
+  league: string,
   collection: RankingsCapture,
   sourceName: string,
   position: string,
 ) {
   const json = JSON.stringify(collection, null, 4);
 
-  const folder = `export/${sourceName}/`.toLowerCase();
+  const folder = `export/${league}/${sourceName}/`.toLowerCase();
   fs.mkdir(folder, { recursive: true }, (err) => {
     if (err) throw err;
   });

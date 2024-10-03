@@ -9,6 +9,7 @@ export type FieldDetails = {
 
 export type Source = {
   name: string;
+  league: string;
   method: 'HTTP' | 'GET';
   urls: {
     [key in FootballPosition | BasketballPosition]?: string;

@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-09-13T02:06:48.673Z",
+    "timestamp": "2024-10-03T17:48:27.110Z",
     "players": [
         {
             "rank": 1,
@@ -19,7 +19,7 @@
         {
             "rank": 4,
             "name": "Trey McBride",
-            "team": "ARI"
+            "team": "ARIQ"
         },
         {
             "rank": 5,
@@ -29,17 +29,17 @@
         {
             "rank": 6,
             "name": "Evan Engram",
-            "team": "JAX"
+            "team": "JAXQ"
         },
         {
             "rank": 7,
             "name": "George Kittle",
-            "team": "SF"
+            "team": "SFQ"
         },
         {
             "rank": 8,
             "name": "David Njoku",
-            "team": "CLEO"
+            "team": "CLEQ"
         },
         {
             "rank": 9,
@@ -49,7 +49,7 @@
         {
             "rank": 10,
             "name": "Jake Ferguson",
-            "team": "DALQ"
+            "team": "DAL"
         },
         {
             "rank": 11,
@@ -69,12 +69,12 @@
         {
             "rank": 14,
             "name": "Dalton Schultz",
-            "team": "HOUQ"
+            "team": "HOU"
         },
         {
             "rank": 15,
             "name": "Cole Kmet",
-            "team": "CHI"
+            "team": "CHIQ"
         },
         {
             "rank": 16,
@@ -89,7 +89,7 @@
         {
             "rank": 18,
             "name": "Taysom Hill",
-            "team": "NO"
+            "team": "NOQ"
         },
         {
             "rank": 19,
@@ -109,7 +109,7 @@
         {
             "rank": 22,
             "name": "Noah Fant",
-            "team": "SEA"
+            "team": "SEAQ"
         },
         {
             "rank": 23,
@@ -119,7 +119,7 @@
         {
             "rank": 24,
             "name": "Luke Musgrave",
-            "team": "GB"
+            "team": "GBQ"
         },
         {
             "rank": 25,
@@ -264,7 +264,7 @@
         {
             "rank": 53,
             "name": "Teagan Quitoriano",
-            "team": "FAQ"
+            "team": "FA"
         },
         {
             "rank": 54,
@@ -314,7 +314,7 @@
         {
             "rank": 63,
             "name": "Brady Russell",
-            "team": "SEA"
+            "team": "SEAQ"
         },
         {
             "rank": 64,
@@ -329,7 +329,7 @@
         {
             "rank": 66,
             "name": "Stephen Carlson",
-            "team": "FA"
+            "team": "CHIIR"
         },
         {
             "rank": 67,
@@ -401,5 +401,6 @@
             "name": "Tim Wright",
             "team": "KC"
         }
-    ]
+    ],
+    "source": "ESPN"
 }

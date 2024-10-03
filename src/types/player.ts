@@ -7,6 +7,7 @@ export type Player = {
 export type RankingsCapture = {
   timestamp: Date;
   players: Player[];
+  source?: string;
 };
 
 export type YahooFootballPlayer = {
@@ -34,10 +35,16 @@ export type YahooBasketballResponse = {
   };
 };
 
+export type Ranking = {
+  rank: number;
+  source: string;
+};
+
 export type UnifiedPlayer = {
+  id: string;
   name: string;
   team: string;
-  rank?: number;
+  rank: number;
   ranks: number[];
   average: number;
   maximum: number;
