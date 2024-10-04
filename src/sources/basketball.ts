@@ -5,21 +5,21 @@ export const Yahoo: Source = {
   league: 'NBA',
   method: 'GET',
   urls: {
-    pg: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=PG;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
-    sg: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=SG;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
-    sf: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=SF;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
-    pf: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=PF;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
-    c: 'https://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/454.l.public;out=settings/players;position=C;start=0;count=70;sort=rank_season;search=;out=auction_values,ranks;ranks=season;ranks_by_position=season;out=expert_ranks;expert_ranks.rank_type=projected_season_remaining/draft_analysis;cut_types=diamond;slices=last7days?format=json_f',
+    pg: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=PG&sport=NBA&year=2024&week=0',
+    sg: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=SG&sport=NBA&year=2024&week=0',
+    sf: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=SF&sport=NBA&year=2024&week=0',
+    pf: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=PF&sport=NBA&year=2024&week=0',
+    c: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=C&sport=NBA&year=2024&week=0',
   },
   fieldDetails: {
     rank: {
-      selector: '',
+      selector: 'rank_ecr',
     },
     name: {
-      selector: 'player.name.full',
+      selector: 'player_name',
     },
     team: {
-      selector: 'player.editorial_team_abbr',
+      selector: 'player_team_id',
     },
   },
 };

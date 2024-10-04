@@ -1,12 +1,7 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import fs from 'fs';
 import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
-import {
-  RankingsCapture,
-  YahooBasketballResponse,
-  YahooFootballResponse,
-} from './types/player';
+import { RankingsCapture, YahooResponse } from './types/player';
 import { Source, Sources } from './types/source';
 import { FootballSources } from './sources/football';
 import { BasketballSources } from './sources/basketball';
@@ -65,16 +60,8 @@ async function fetchRanksConcurrently(sources: Sources) {
             }
           });
         } else {
-          let players;
-          if (league === 'NBA') {
-            const {
-              fantasy_content: {
-                league: { players },
-              },
-            } = response.value as YahooBasketballResponse;
-          } else {
-            const { players } = response.value as YahooFootballResponse;
-          }
+          const { players } = response.value as YahooResponse;
+          console.log(response.value);
 
           players.forEach((player, index) => {
             if (index < MAX_PLAYERS) {

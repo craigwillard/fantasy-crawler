@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import * as EspnQbs from '../../../export/espn/qb.json';
-import * as HarrisQbs from '../../../export/harris/qb.json';
-import * as YahooQbs from '../../../export/yahoo/qb.json';
+import * as EspnQbs from '../../../export/nfl/espn/qb.json';
+import * as HarrisQbs from '../../../export/nfl/harris/qb.json';
+import * as YahooQbs from '../../../export/nfl/yahoo/qb.json';
 import { Player, UnifiedPlayer, UnifiedPlayers } from 'src/types/player';
 import { transformNormalizeName } from 'src/common/utils';
 

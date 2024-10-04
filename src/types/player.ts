@@ -7,32 +7,15 @@ export type Player = {
 export type RankingsCapture = {
   timestamp: Date;
   players: Player[];
-  source?: string;
+  source: string;
 };
 
-export type YahooFootballPlayer = {
+export type YahooPlayer = {
   [key: string]: string;
 };
 
-export type YahooFootballResponse = {
-  players: YahooFootballPlayer[];
-};
-
-export type YahooBasketballPlayer = {
-  player: {
-    name: {
-      full: string;
-    };
-    editorial_team_abbr: string;
-  };
-};
-
-export type YahooBasketballResponse = {
-  fantasy_content: {
-    league: {
-      players: YahooBasketballPlayer[];
-    };
-  };
+export type YahooResponse = {
+  players: YahooPlayer[];
 };
 
 export type Ranking = {
