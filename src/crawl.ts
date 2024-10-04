@@ -7,8 +7,6 @@ import { FootballSources } from './sources/football';
 import { BasketballSources } from './sources/basketball';
 import { getNestedProperty } from './common/utils';
 
-// TODO: crawl and group by sport
-
 const MAX_PLAYERS = 80;
 
 async function fetchRanksConcurrently(sources: Sources) {

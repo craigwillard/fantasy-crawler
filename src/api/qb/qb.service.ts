@@ -13,26 +13,32 @@ export class QbService {
   unifiedQbs: UnifiedPlayers;
 
   constructor() {
-    this.espnQbs = EspnQbs.players;
-    this.harrisQbs = HarrisQbs.players;
-    this.yahooQbs = YahooQbs.players;
+    this.espnQbs = EspnQbs.players.map((player) => {
+      return { ...player, source: EspnQbs.source };
+    });
+    this.harrisQbs = HarrisQbs.players.map((player) => {
+      return { ...player, source: HarrisQbs.source };
+    });
+    this.yahooQbs = YahooQbs.players.map((player) => {
+      return { ...player, source: YahooQbs.source };
+    });
     this.unifiedQbs = {};
 
     this.espnQbs.concat(this.harrisQbs, this.yahooQbs).forEach((player) => {
-      const { name, team, rank } = player;
+      const { name, team, rank, source } = player;
       const playerName = transformNormalizeName(name);
       if (this.unifiedQbs.hasOwnProperty(playerName)) {
         const playa = this.unifiedQbs[playerName];
-        playa.ranks.push(rank);
+        playa.ranks.push({ source, rank });
         playa.average =
-          playa.ranks.reduce((a, b) => a + b) / playa.ranks.length;
-        playa.maximum = Math.max(...playa.ranks);
-        playa.minimum = Math.min(...playa.ranks);
+          playa.ranks.reduce((a, b) => a + b.rank, 0) / playa.ranks.length;
+        playa.maximum = Math.max(...playa.ranks.map((rank) => rank.rank));
+        playa.minimum = Math.min(...playa.ranks.map((rank) => rank.rank));
       } else {
         this.unifiedQbs[playerName] = {
           name,
           team,
-          ranks: [rank],
+          ranks: [{ source, rank }],
           rank,
           average: rank,
           maximum: rank,

@@ -2,6 +2,7 @@ export type Player = {
   rank: number;
   name: string;
   team: string;
+  source?: string;
 };
 
 export type RankingsCapture = {
@@ -28,7 +29,7 @@ export type UnifiedPlayer = {
   name: string;
   team: string;
   rank: number;
-  ranks: number[];
+  ranks: Ranking[];
   average: number;
   maximum: number;
   minimum: number;
