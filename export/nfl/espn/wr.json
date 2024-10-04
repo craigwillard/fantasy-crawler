@@ -1,5 +1,6 @@
 {
-    "timestamp": "2024-10-03T17:48:27.025Z",
+    "source": "ESPN",
+    "timestamp": "2024-10-04T02:57:05.847Z",
     "players": [
         {
             "rank": 1,
@@ -79,7 +80,7 @@
         {
             "rank": 16,
             "name": "DK Metcalf",
-            "team": "SEA"
+            "team": "SEAQ"
         },
         {
             "rank": 17,
@@ -139,7 +140,7 @@
         {
             "rank": 28,
             "name": "Rashee Rice",
-            "team": "KCO"
+            "team": "KCIR"
         },
         {
             "rank": 29,
@@ -304,7 +305,7 @@
         {
             "rank": 61,
             "name": "Romeo Doubs",
-            "team": "GB"
+            "team": "GBQ"
         },
         {
             "rank": 62,
@@ -401,6 +402,5 @@
             "name": "Justin Hunter",
             "team": "FA"
         }
-    ],
-    "source": "ESPN"
+    ]
 }

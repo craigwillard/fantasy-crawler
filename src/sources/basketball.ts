@@ -51,4 +51,4 @@ export const ESPN: Source = {
   },
 };
 
-export const AllSources: Sources = [Yahoo];
+export const BasketballSources: Sources = [Yahoo];

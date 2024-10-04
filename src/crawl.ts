@@ -1,9 +1,15 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import fs from 'fs';
 import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
-import { RankingsCapture, YahooFootballResponse } from './types/player';
+import {
+  RankingsCapture,
+  YahooBasketballResponse,
+  YahooFootballResponse,
+} from './types/player';
 import { Source, Sources } from './types/source';
-import { AllSources } from './sources/football';
+import { FootballSources } from './sources/football';
+import { BasketballSources } from './sources/basketball';
 import { getNestedProperty } from './common/utils';
 
 // TODO: crawl and group by sport
@@ -34,9 +40,9 @@ async function fetchRanksConcurrently(sources: Sources) {
     responses.forEach((response, index) => {
       if (response.status === 'fulfilled') {
         const collection: RankingsCapture = {
+          source: name,
           timestamp: new Date(),
           players: [],
-          source: name,
         };
         if (http) {
           const body = cheerio.load(response.value as string);
@@ -59,13 +65,16 @@ async function fetchRanksConcurrently(sources: Sources) {
             }
           });
         } else {
-          const { players } = response.value as YahooFootballResponse;
-
-          // const {
-          //   fantasy_content: {
-          //     league: { players },
-          //   },
-          // } = response.value as YahooFootballResponse;
+          let players;
+          if (league === 'NBA') {
+            const {
+              fantasy_content: {
+                league: { players },
+              },
+            } = response.value as YahooBasketballResponse;
+          } else {
+            const { players } = response.value as YahooFootballResponse;
+          }
 
           players.forEach((player, index) => {
             if (index < MAX_PLAYERS) {
@@ -109,4 +118,4 @@ function saveJson(
   });
 }
 
-fetchRanksConcurrently(AllSources);
+fetchRanksConcurrently(FootballSources.concat(BasketballSources));

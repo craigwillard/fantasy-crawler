@@ -1,4 +1,5 @@
 {
+  "source": "Harris",
   "timestamp": "2024-09-05T15:35:51.400Z",
   "players": [
     {
@@ -161,6 +162,5 @@
       "name": "Arizona Cardinals",
       "team": ""
     }
-  ],
-  "source": "Harris"
+  ]
 }

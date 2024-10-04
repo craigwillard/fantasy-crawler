@@ -1,5 +1,6 @@
 {
-    "timestamp": "2024-10-03T17:48:26.924Z",
+    "source": "ESPN",
+    "timestamp": "2024-10-04T02:57:05.765Z",
     "players": [
         {
             "rank": 1,
@@ -54,7 +55,7 @@
         {
             "rank": 11,
             "name": "Alvin Kamara",
-            "team": "NO"
+            "team": "NOQ"
         },
         {
             "rank": 12,
@@ -79,7 +80,7 @@
         {
             "rank": 16,
             "name": "Kenneth Walker III",
-            "team": "SEA"
+            "team": "SEAQ"
         },
         {
             "rank": 17,
@@ -169,7 +170,7 @@
         {
             "rank": 34,
             "name": "Ezekiel Elliott",
-            "team": "DAL"
+            "team": "DALQ"
         },
         {
             "rank": 35,
@@ -401,6 +402,5 @@
             "name": "Denard Robinson",
             "team": "JAX"
         }
-    ],
-    "source": "ESPN"
+    ]
 }

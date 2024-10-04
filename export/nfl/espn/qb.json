@@ -1,5 +1,6 @@
 {
-    "timestamp": "2024-10-03T17:48:26.785Z",
+    "source": "ESPN",
+    "timestamp": "2024-10-04T02:57:05.574Z",
     "players": [
         {
             "rank": 1,
@@ -49,7 +50,7 @@
         {
             "rank": 10,
             "name": "Jordan Love",
-            "team": "GBQ"
+            "team": "GB"
         },
         {
             "rank": 11,
@@ -74,7 +75,7 @@
         {
             "rank": 15,
             "name": "Aaron Rodgers",
-            "team": "NYJQ"
+            "team": "NYJ"
         },
         {
             "rank": 16,
@@ -401,6 +402,5 @@
             "name": "Tom Savage",
             "team": "FA"
         }
-    ],
-    "source": "ESPN"
+    ]
 }

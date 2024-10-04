@@ -1,5 +1,6 @@
 {
-    "timestamp": "2024-10-03T17:48:27.110Z",
+    "source": "ESPN",
+    "timestamp": "2024-10-04T02:57:05.946Z",
     "players": [
         {
             "rank": 1,
@@ -74,7 +75,7 @@
         {
             "rank": 15,
             "name": "Cole Kmet",
-            "team": "CHIQ"
+            "team": "CHI"
         },
         {
             "rank": 16,
@@ -104,7 +105,7 @@
         {
             "rank": 21,
             "name": "Juwan Johnson",
-            "team": "NO"
+            "team": "NOQ"
         },
         {
             "rank": 22,
@@ -314,7 +315,7 @@
         {
             "rank": 63,
             "name": "Brady Russell",
-            "team": "SEAQ"
+            "team": "SEA"
         },
         {
             "rank": 64,
@@ -401,6 +402,5 @@
             "name": "Tim Wright",
             "team": "KC"
         }
-    ],
-    "source": "ESPN"
+    ]
 }

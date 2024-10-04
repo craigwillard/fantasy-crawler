@@ -1,5 +1,6 @@
 {
-    "timestamp": "2024-10-03T17:48:26.452Z",
+    "source": "Yahoo",
+    "timestamp": "2024-10-04T02:57:05.390Z",
     "players": [
         {
             "rank": 1,
@@ -216,6 +217,5 @@
             "name": "Jake Browning",
             "team": "CIN"
         }
-    ],
-    "source": "Yahoo"
+    ]
 }

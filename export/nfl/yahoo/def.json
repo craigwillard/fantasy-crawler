@@ -1,5 +1,6 @@
 {
-    "timestamp": "2024-10-03T17:48:26.487Z",
+    "source": "Yahoo",
+    "timestamp": "2024-10-04T02:57:05.409Z",
     "players": [
         {
             "rank": 1,
@@ -161,6 +162,5 @@
             "name": "Arizona Cardinals",
             "team": "ARI"
         }
-    ],
-    "source": "Yahoo"
+    ]
 }

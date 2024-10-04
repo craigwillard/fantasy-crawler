@@ -1,5 +1,6 @@
 {
-    "timestamp": "2024-10-03T17:48:26.462Z",
+    "source": "Yahoo",
+    "timestamp": "2024-10-04T02:57:05.398Z",
     "players": [
         {
             "rank": 1,
@@ -401,6 +402,5 @@
             "name": "Emanuel Wilson",
             "team": "GB"
         }
-    ],
-    "source": "Yahoo"
+    ]
 }
