@@ -5,6 +5,14 @@ export type BasketballPosition = 'pg' | 'sg' | 'sf' | 'pf' | 'c';
 export type FieldDetails = {
   selector: string;
   regex?: RegExp;
+  mapping?: string[];
+};
+
+export type UrlDetails = {
+  url: string;
+  headers?: {
+    [key: string]: string;
+  };
 };
 
 export type Source = {
@@ -12,7 +20,7 @@ export type Source = {
   league: string;
   method: 'HTTP' | 'GET';
   urls: {
-    [key in FootballPosition | BasketballPosition]?: string;
+    [key in FootballPosition | BasketballPosition]?: UrlDetails;
   };
   tableSelector?: string;
   fieldDetails: {

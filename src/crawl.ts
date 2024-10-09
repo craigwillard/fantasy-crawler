@@ -20,13 +20,16 @@ async function fetchRanksConcurrently(sources: Sources) {
       fieldDetails: {
         rank: { selector: rankSelector, regex: rankRegex },
         name: { selector: nameSelector },
-        team: { selector: teamSelector, regex: teamRegex },
+        team: { selector: teamSelector, regex: teamRegex, mapping },
       },
     }: Source = source;
 
     const responses = await Promise.allSettled(
       sourceUrls.map((sourceUrl) =>
-        fetch(sourceUrl).then((res) => (http ? res.text() : res.json())),
+        fetch(
+          sourceUrl.url,
+          sourceUrl.headers ? { headers: sourceUrl.headers } : {},
+        ).then((res) => (http ? res.text() : res.json())),
       ),
     );
 
@@ -37,6 +40,7 @@ async function fetchRanksConcurrently(sources: Sources) {
           timestamp: new Date(),
           players: [],
         };
+        // TODO: handle if there are no results
         if (http) {
           const body = cheerio.load(response.value as string);
           const table = body(tableSelector);
@@ -58,15 +62,20 @@ async function fetchRanksConcurrently(sources: Sources) {
             }
           });
         } else {
+          // GET
           const { players } = response.value as YahooResponse;
-          console.log(response.value);
 
           players.forEach((player, index) => {
+            // console.log(player);
             if (index < MAX_PLAYERS) {
               collection.players.push({
-                rank: rankSelector ? Number(player[rankSelector]) : index + 1,
+                rank: rankSelector
+                  ? Number(getNestedProperty(player, rankSelector))
+                  : index + 1,
                 name: getNestedProperty(player, nameSelector),
-                team: getNestedProperty(player, teamSelector),
+                team: mapping
+                  ? mapping[getNestedProperty(player, teamSelector) - 1]
+                  : getNestedProperty(player, teamSelector),
               });
             }
           });
@@ -104,3 +113,4 @@ function saveJson(
 }
 
 fetchRanksConcurrently(FootballSources.concat(BasketballSources));
+// fetchRanksConcurrently(BasketballSources);

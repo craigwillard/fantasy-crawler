@@ -6,11 +6,12 @@ import { Player, UnifiedPlayer, UnifiedPlayers } from 'src/types/player';
 import { transformNormalizeName } from 'src/common/utils';
 
 @Injectable()
-export class QbService {
+export class PositionService {
   espnQbs: Player[];
   harrisQbs: Player[];
   yahooQbs: Player[];
   unifiedQbs: UnifiedPlayers;
+  outputQbs: UnifiedPlayer[];
 
   constructor() {
     this.espnQbs = EspnQbs.players.map((player) => {
@@ -36,6 +37,7 @@ export class QbService {
         playa.minimum = Math.min(...playa.ranks.map((rank) => rank.rank));
       } else {
         this.unifiedQbs[playerName] = {
+          id: crypto.randomUUID(),
           name,
           team,
           ranks: [{ source, rank }],
@@ -43,23 +45,17 @@ export class QbService {
           average: rank,
           maximum: rank,
           minimum: rank,
-          id: crypto.randomUUID(),
+          drafted: false,
         };
       }
     });
-
-    // console.log(this.unifiedQbs);
-  }
-
-  findAll() {
-    // console.log(Object.entries(this.unifiedQbs));
     const arrUnifiedQbs: UnifiedPlayer[] = [];
     Object.entries(this.unifiedQbs).forEach((player) => {
       const [, playerDetails] = player;
       arrUnifiedQbs.push(playerDetails);
     });
-    // return this.unifiedQbs;
-    return arrUnifiedQbs
+
+    this.outputQbs = arrUnifiedQbs
       .sort((a, b) => a.average - b.average)
       .map((player, index) => {
         return {
@@ -67,6 +63,10 @@ export class QbService {
           rank: index + 1,
         };
       });
+  }
+
+  findAll() {
+    return this.outputQbs;
   }
 
   findAllHarris() {

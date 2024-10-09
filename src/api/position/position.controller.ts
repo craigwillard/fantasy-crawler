@@ -1,9 +1,9 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { QbService } from './qb.service';
+import { PositionService } from './position.service';
 
 @Controller('qb')
-export class QbController {
-  constructor(private qbService: QbService) {}
+export class PositionController {
+  constructor(private qbService: PositionService) {}
 
   @Get()
   findAll() {

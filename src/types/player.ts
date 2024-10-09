@@ -33,6 +33,7 @@ export type UnifiedPlayer = {
   average: number;
   maximum: number;
   minimum: number;
+  drafted: boolean;
 };
 
 export type UnifiedPlayers = {
