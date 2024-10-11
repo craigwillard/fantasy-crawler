@@ -1,9 +1,19 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import * as fs from 'fs';
+import * as path from 'path';
 import { Injectable } from '@nestjs/common';
+
 import * as EspnQbs from '../../../export/nfl/espn/qb.json';
 import * as HarrisQbs from '../../../export/nfl/harris/qb.json';
 import * as YahooQbs from '../../../export/nfl/yahoo/qb.json';
-import { Player, UnifiedPlayer, UnifiedPlayers } from 'src/types/player';
+import {
+  Player,
+  RankingsCapture,
+  UnifiedPlayer,
+  UnifiedPlayers,
+} from 'src/types/player';
 import { transformNormalizeName } from 'src/common/utils';
+import { BasketballPosition, FootballPosition, League } from 'src/types/source';
 
 @Injectable()
 export class PositionService {
@@ -14,6 +24,26 @@ export class PositionService {
   outputQbs: UnifiedPlayer[];
 
   constructor() {
+    const footballSubfolders = this.getSubfolders('export/nfl');
+    const basketballSubfolders = this.getSubfolders('export/nba');
+    console.log(footballSubfolders);
+    console.log(basketballSubfolders);
+    footballSubfolders.forEach((subfolder) => {});
+    // try {
+    //   const filePath = 'export/nfl/espn/qb.json';
+
+    //   if (fs.existsSync(filePath)) {
+    //     const data: RankingsCapture = JSON.parse(
+    //       fs.readFileSync(filePath).toString(),
+    //     );
+    //     console.log('File exists and data imported:', data);
+    //   } else {
+    //     console.log('File does not exist.');
+    //   }
+    // } catch (err) {
+    //   console.error('Error reading file:', err);
+    // }
+
     this.espnQbs = EspnQbs.players.map((player) => {
       return { ...player, source: EspnQbs.source };
     });
@@ -65,7 +95,28 @@ export class PositionService {
       });
   }
 
-  findAll() {
+  // gatherPosition(league: string, position: string) {
+
+  // }
+
+  getSubfolders(dir) {
+    const subfolders = [];
+
+    fs.readdirSync(dir).forEach((file) => {
+      const fullPath = path.join(dir, file);
+      const stats = fs.statSync(fullPath);
+
+      if (stats.isDirectory()) {
+        subfolders.push(fullPath);
+        subfolders.push(...this.getSubfolders(fullPath)); // Recursive call for nested subfolders
+      }
+    });
+
+    return subfolders;
+  }
+
+  findAll(league: League, position: BasketballPosition | FootballPosition) {
+    console.log(`This action returns all ${position}s in the ${league}.`);
     return this.outputQbs;
   }
 

@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
 import { RankingsCapture, YahooResponse } from './types/player';
 import { Source, Sources } from './types/source';
-import { FootballSources } from './sources/football';
+// import { FootballSources } from './sources/football';
 import { BasketballSources } from './sources/basketball';
 import { getNestedProperty } from './common/utils';
 
@@ -112,5 +112,5 @@ function saveJson(
   });
 }
 
-fetchRanksConcurrently(FootballSources.concat(BasketballSources));
-// fetchRanksConcurrently(BasketballSources);
+// fetchRanksConcurrently(FootballSources.concat(BasketballSources));
+fetchRanksConcurrently(BasketballSources);

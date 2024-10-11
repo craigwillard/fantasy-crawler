@@ -1,6 +1,13 @@
 export type Field = 'rank' | 'name' | 'team';
-export type FootballPosition = 'qb' | 'rb' | 'wr' | 'te' | 'def';
-export type BasketballPosition = 'pg' | 'sg' | 'sf' | 'pf' | 'c';
+
+export const leagues = ['nfl', 'nba'] as const;
+export type League = (typeof leagues)[number];
+
+export const footballPositions = ['qb', 'rb', 'wr', 'te', 'def'] as const;
+export type FootballPosition = (typeof footballPositions)[number];
+
+export const basketballPositions = ['pg', 'sg', 'sf', 'pf', 'c'] as const;
+export type BasketballPosition = (typeof basketballPositions)[number];
 
 export type FieldDetails = {
   selector: string;
@@ -17,10 +24,10 @@ export type UrlDetails = {
 
 export type Source = {
   name: string;
-  league: string;
+  league: League;
   method: 'HTTP' | 'GET';
   urls: {
-    [key in FootballPosition | BasketballPosition]?: UrlDetails;
+    [key in BasketballPosition | FootballPosition]?: UrlDetails;
   };
   tableSelector?: string;
   fieldDetails: {

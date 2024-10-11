@@ -2,23 +2,23 @@ import { Source, Sources } from '../types/source';
 
 export const Yahoo: Source = {
   name: 'Yahoo',
-  league: 'NBA',
+  league: 'nba',
   method: 'GET',
   urls: {
     pg: {
-      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=PG&sport=NBA&year=2024&week=0',
+      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=PG&sport=nba&year=2024&week=0',
     },
     sg: {
-      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=SG&sport=NBA&year=2024&week=0',
+      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=SG&sport=nba&year=2024&week=0',
     },
     sf: {
-      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=SF&sport=NBA&year=2024&week=0',
+      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=SF&sport=nba&year=2024&week=0',
     },
     pf: {
-      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=PF&sport=NBA&year=2024&week=0',
+      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=PF&sport=nba&year=2024&week=0',
     },
     c: {
-      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=C&sport=NBA&year=2024&week=0',
+      url: 'https://partners.fantasypros.com/api/v1/consensus-rankings.php?position=C&sport=nba&year=2024&week=0',
     },
   },
   fieldDetails: {
@@ -36,7 +36,7 @@ export const Yahoo: Source = {
 
 export const ESPN: Source = {
   name: 'ESPN',
-  league: 'NBA',
+  league: 'nba',
   method: 'GET',
   urls: {
     pg: {

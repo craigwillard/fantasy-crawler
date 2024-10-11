@@ -2,7 +2,7 @@ import { Source, Sources } from '../types/source';
 
 export const Harris: Source = {
   name: 'Harris',
-  league: 'NFL',
+  league: 'nfl',
   method: 'HTTP',
   urls: {
     qb: { url: 'https://www.harrisfootball.com/ranks-draft' },
@@ -27,7 +27,7 @@ export const Harris: Source = {
 
 export const Yahoo: Source = {
   name: 'Yahoo',
-  league: 'NFL',
+  league: 'nfl',
   method: 'GET',
   urls: {
     qb: {
@@ -61,7 +61,7 @@ export const Yahoo: Source = {
 
 export const ESPN: Source = {
   name: 'ESPN',
-  league: 'NFL',
+  league: 'nfl',
   method: 'HTTP',
   urls: {
     qb: {
